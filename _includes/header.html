@@ -1,0 +1,12 @@
+<!-- Website headers with the title on the left and the menu items on the right -->
+
+<div class="header">
+  <div class="title">
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+  </div>
+  <div class="menu">
+    {% for item in site.menu %}
+    <a href="{{ item.url }}" target="{{ item.target }}">{{ item.title }}</a>
+    {% endfor %}
+  </div>
+</div>

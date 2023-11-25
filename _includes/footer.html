@@ -1,35 +1,7 @@
-<footer class="notepad-site-footer">
-    <div class="copyright">
-         <section>All content copyright <a href="{{ site.url }}/about">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section><br />
-         <section>Made with <span style="color: #e25555;">&hearts;</span> in Germany, using: Ruby, Jekyll, Github, GithubPages and a custom version of <a href="https://github.com/hmfaysal/Notepad" target="_blank">Notepad</a> theme.</section>
-    </div>
-    <div class="social-icons">
-
-        {% if site.owner.twitter %}
-        <a href="http://twitter.com/{{ site.owner.twitter }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-        {% if site.owner.github %}
-        <a href="http://github.com/{{ site.owner.github }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-        {% if site.owner.linkedin %}
-        <a href="{{ site.owner.linkedin }}">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-linkedin fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
-    </div>
-
-    <div class="cf"></div>
-</footer>
+<!-- Footer -->
+<div class="footer">
+  {{ site.author}} - {{ site.time | date: '%Y'}} |
+  {% for item in site.social %}
+    <i class="fa-brands fa-{{ item.icon }} fa-md" style="color: #aae0a1;"></i> <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+  {% endfor %}
+</div>

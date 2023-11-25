@@ -1,0 +1,174 @@
+body {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--oc-gray-9);
+  color: var(--oc-green-4);
+}
+
+main {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: lowercase;
+
+  @media (min-width: 576px) {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 20px;
+    width: 60%
+  }
+}
+
+// A container for the main content of the page
+.content {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 60rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  text-align: center;
+
+  // Sticky footer
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: var(--oc-gray-8);
+  color: var(--oc-green-4);
+}
+
+// A container for the photo-grid
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+// photo-grid item
+.photo-grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .photo-grid-item-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--oc-green-4);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .photo-grid-item-overlay-title {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+    }
+
+    .photo-grid-item-overlay-description {
+      font-size: 0.8rem;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+//  Add a two column layout where the author image is on the top left and on the right colum a title and description should exist
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1rem;
+  margin-bottom: 3rem;
+
+  .about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .about-content {
+    margin-left: 2rem;
+    margin-top: -1.5rem;
+  }
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
+  font-style: italic;
+
+  &:hover,
+  &:active {
+    color: var(--oc-green-5);
+  }
+}

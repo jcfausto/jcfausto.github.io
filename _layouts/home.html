@@ -1,53 +1,106 @@
-<!DOCTYPE html>
-<html>
-<head>
-{% include head.html %}
-</head>
-<body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-<header class="notepad-site-head">
-    <div class="notepad-site-head-menu">
-        <a class="notepad-blog-logo" href="{{ site.url }}"><img src="{{ site.url }}/images/{{ site.logo }}" alt="JCF" /></a>
+---
+layout: default
+---
 
-
-        <div class="notepad-blog-menu">
-    <div class="notepad-mobile-menu show-for-small">
-        <a href="#"><i class="fa fa-bars"></i></a>
-    </div>
-    <ul class="notepad-menu">
-        <li class="notepad-mobile-close-btn show-for-small text-right">
-            <a href="#"><i class="fa fa-times"></i></a>
-        </li>
-{% for link in site.links %}
-            <li>{% if link.external %}
-            <a href="{{ link.url }}">{{ link.title }}</a>
-            {% else %}
-            <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-            {% endif %} </li>
-{% endfor %}
-           <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
-    </ul>
+<div class="photo-portfolio">
+  <h2>Did you see my photos yet?</h2>
+  <div class="photo-grid">
+    {% for photo in site.data.photo_portfolio %}
+      <div class="photo-grid-item">
+        <a href="{{ site.photo_website }}" target="_blank">
+          <img src="{{ photo.url }}" alt="{{ photo.alt }}" style="width:100%">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
-        <div class="clearfix"></div>
+
+<div class="posts">
+  <h2 class="posts-title">Thoughts and Notes</h2>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <span class="date">{{ post.date | date_to_string }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- <main class="json">
+  <div class="block">
+    {% if site.json.name %}
+    <p><span class="key">name</span><span class="attr">{{ site.json.name }}</span></p>
+    {% else %}
+    <p><span class="key">name</span><span class="attr">{{ site.title }}</span></p>
+    {% endif %}
+    {% if site.json.description %}
+    {% if site.json.description.first %}
+    <div id="typed-strings">
+      {% for i in site.json.description %}
+      <span>{{ i | prepend: '"' | append: '",'}}</span>
+      {% endfor %}
     </div>
-    <div class="notepad-site-head-content" >
-        <div class="notepad-site-head-bg"></div>
-        <h1 class="notepad-blog-title">
-            <span class="notepad-site-head-title-bg">
-                <a href="/about">{{ site.title }}</a>
-            </span>
-        </h1>
-        <h2 class="notepad-blog-description">{{ site.description }}</h2>
-
+    <p><span class="key">description</span>{% include typed.html %}</p>
+    {% else %}
+    <p><span class="key">description</span><span class="attr">{{ site.json.description }}</span></p>
+    {% endif %}
+    {% else %}
+    <p><span class="key">description</span><span class="attr">{{ site.description }}</span></p>
+    {% endif %}
+  </div>
+  <div class="block">
+    {% if site.json.cv %}
+    {% assign cv = site.json.cv | split: "/" | slice: -1 %}
+    <p><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}" target="_blank">{{ cv }}</a></span></p>
+    {% endif %}
+  </div>
+  <div class="block">
+    {% if site.json.address %}
+    {% if site.json.address.first %}
+    <p><span class="array-key">address</span></p>
+    <div class="array">
+      {% for i in site.json.address %}
+      <p class="array-attr">{{ i }}</p>
+      {% endfor %}
     </div>
-</header>
-
-
-<main class="notepad-content" role="main">
-
-            {{ content }}
-</main>
-    {% include footer.html %}
-
-{% include scripts.html %}
-</body>
-</html>
+    {% else %}
+    <p><span class="key">address</span><span class="attr">{{ site.json.address }}</span></p>
+    {% endif %}
+    {% endif %}
+  </div>
+  <div class="block">
+    {% if site.json.contact %}
+    {% if site.json.contact.first %}
+    <p><span class="list-key">contact</span></p>
+    <div class="list">
+      {% for i in site.json.contact %}
+      <p><span class="list-subkey">{{ i | slice: 0 }}</span><span class="list-attr">{{ i | slice: 1 }}</span></p>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p><span class="key">contact</span><span class="attr">{{ site.json.contact }}</span></p>
+    {% endif %}
+    {% endif %}
+  </div>
+  <div class="block">
+    {% if site.json.demo %}
+    {% assign demo = site.json.demo | split: "//" | slice: 1 %}
+    <p><span class="key">demo</span><span class="attr"><a href="{{ site.json.demo }}" target="_blank">{{ demo }}</a></span></p>
+    {% endif %}
+    {% if site.json.source %}
+    {% assign source = site.json.source | split: "github.com/" | slice: 1 %}
+    <p><span class="key">source</span><span class="attr"><a href="{{ site.json.source }}" target="_blank">{{ source }}</a></span></p>
+    {% endif %}
+  </div>
+  <div class="block">
+    {% if site.json.profiles %}
+    <span class="array-key">profiles</span>
+    <div class="array">
+      {% for i in site.json.profiles %}
+      <p class="array-attr"><a href="{{ i | slice: 1 }}" target="_blank">{{ i | slice: 0 }}</a></p>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</main> -->
