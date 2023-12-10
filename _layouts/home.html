@@ -2,6 +2,21 @@
 layout: default
 ---
 
+<div class="photo-of-the-month">
+  <h2>Photo of the month <span>({{ site.data.photo_of_the_month[0].month }} {{ site.data.photo_of_the_month[0].year }})</span></h2>
+  <div class="photo-grid">
+    {% for photo in site.data.photo_of_the_month %}
+      <div class="photo-grid-item">
+        <div class="single-photo-grid-item">
+          <a href="{{ site.photo_website }}" target="_blank">
+            <img src="{{ photo.url }}" alt="{{ photo.alt }}">
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="photo-portfolio">
   <h2>Did you see my photos yet?</h2>
   <div class="photo-grid">
@@ -16,7 +31,7 @@ layout: default
 </div>
 
 <div class="posts">
-  <h2 class="posts-title">Thoughts and Notes</h2>
+  <h2 class="posts-title">Blog Posts</h2>
   <ul>
     {% for post in site.posts %}
     <li>

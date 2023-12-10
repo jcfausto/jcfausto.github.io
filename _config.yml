@@ -1,6 +1,6 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
-title: Julio's Notes
+title: Julio's Website
 author: Julio Cesar Fausto
 author_image: /assets/images/jcfausto.png
 description: Julio Cesar Fausto's personal website
@@ -38,6 +38,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-admin
 
 whitelist:
   - jekyll-sitemap

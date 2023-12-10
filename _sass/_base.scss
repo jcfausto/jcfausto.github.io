@@ -49,18 +49,24 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 0 1rem;
-  max-width: 60rem;
+  padding: 2rem 1rem;
   min-height: 3rem;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  // justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   background-color: var(--oc-gray-9);
 
-  @media screen and (max-width: 650px) {
-    flex-direction: column;
+  .header-content {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    @media screen and (max-width: 650px) {
+      flex-direction: column;
+      gap: 1rem;
+    }
   }
 
   .title {
@@ -183,6 +189,7 @@ h2 {
   border-radius: 0.25rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out;
+  margin-top: 10px;
 
   &:hover {
     transform: scale(1.05);
@@ -226,6 +233,19 @@ h2 {
       margin: 0;
       padding: 0;
     }
+  }
+
+  .single-photo-grid-item {
+    grid-column: 1 / -1;
+  }
+}
+
+.photo-of-the-month {
+  span {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
   }
 }
 
