@@ -1,0 +1,9 @@
+- title: Home
+  url: /
+  external: false
+- title: Photography
+  url: https://jcfausto.net
+  external: true
+- title: About
+  url: /about/
+  external: false

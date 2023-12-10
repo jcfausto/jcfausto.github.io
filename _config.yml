@@ -1,5 +1,6 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
+mode: light
 title: Julio's Website
 author: Julio Cesar Fausto
 author_image: /assets/images/jcfausto.png
@@ -15,20 +16,6 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/in/jcfausto/
     icon: linkedin
-
-menu:
-  - title: Home
-    url: /
-    target: _self
-  - title: Photography
-    url: https://jcfausto.net
-    target: _blank
-  - title: Music
-    url: /
-    target: _self
-  - title: About
-    url: /about
-    target: _self
 
 exclude:
   - LICENSE

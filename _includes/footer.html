@@ -1,19 +1,11 @@
 <!-- Footer -->
-<div class="footer">
-  {{ site.author}} - {{ site.time | date: '%Y'}} |
+<footer class="footer">
+  <span class="footer_item">&copy; {{ site.author}} - {{ site.time | date: "%Y" }}</span>
+  <small class="footer_copyright">
+    <a class="footer_item" href="{{ site.url }}/feed.xml">RSS</a>
+  </small>
   {% for item in site.social %}
-    <i class="fa-brands fa-{{ item.icon }} fa-md" style="color: #aae0a1;"></i> <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+    <i class="fa-brands fa-{{ item.icon }} fa-md"></i> <a href="{{ item.url }}" target="_blank">{{ item.title }}</a>
   {% endfor %}
-
-  <!-- <div class="newsletter-container">
-    <h4 class="newsletter-title">Subscribe</h4>
-    <form action="https://tinyletter.com/jcfausto"
-      class="newsletter"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://tinyletter.com/jcfausto', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-    <input type="text" name="email" id="tlemail" placeholder="Enter your email address ..."/>
-    <input type="submit" value="Subscribe to my newsletter"/>
-    </form>
-  </div> -->
-</div>
+</footer>
+<script src="/assets/js/main.js" defer="defer"></script>
