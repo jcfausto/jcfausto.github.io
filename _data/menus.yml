@@ -4,6 +4,9 @@
 - title: Photography
   url: https://jcfausto.net
   external: true
+- title: Quotes
+  url: /quotes
+  external: false
 - title: About
   url: /about
   external: false

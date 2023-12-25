@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="content">
+    <h1>Quotes</h1>
+    <h2>Short ideas to inspire reflection and review...</h2>
+    {% for quote in site.data.quotes %}
+    <div class="entry">
+      <blockquote>
+        <p>{{ quote.quote }}</p>
+        <cite><a href={{quote.link}} target="_blank">{{ quote.author }}</a></cite>
+      </blockquote>
+    </div>
+    {% endfor %}
+</div>
