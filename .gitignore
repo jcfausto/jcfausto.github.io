@@ -2,3 +2,11 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.DS_Store
+.ruby-lsp/
+vendor/
+
+# Originals for scripts/process-book-covers (processed JPEGs are committed)
+assets/images/books/_unprocessed-*
+assets/images/books/_unprocessed/*
+!assets/images/books/_unprocessed/.gitkeep

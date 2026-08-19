@@ -1,5 +1,9 @@
 ---
 layout: post
+language: en
+redirect_from:
+  - /2023/12/27/the-ability-to-unlearn.html
+  - /2023/12/27/the-ability-to-unlearn/
 title: The ability to unlearn
 ---
 

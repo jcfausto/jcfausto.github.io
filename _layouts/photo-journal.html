@@ -10,12 +10,12 @@ layout: default
       {{ page.date | date: "%-d %b %Y" }}
     </div>
     <h1 class="title">{{ page.title | escape }}</h1>
-    {% if page.recovered %}
-      <p class="post-archive-note">From the archive{% if page.original_url %} · <a href="{{ page.archive_url | default: page.original_url }}">original</a>{% endif %}</p>
+    {% if page.original_url %}
+      <p class="post-archive-note"><a href="{{ page.original_url }}">Originally published</a> on juliofaustophotography.com</p>
     {% endif %}
   </header>
   <div class="prose">
     {{ content }}
   </div>
-  <p class="post-back"><a href="{{ '/writing/' | relative_url }}">← All writing</a></p>
+  <p class="post-back"><a href="{{ '/photography/journal/' | relative_url }}">← The journal</a></p>
 </article>

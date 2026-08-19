@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+{% case page.status %}
+  {% when "reading" %}{% assign status_label = "Reading" %}
+  {% when "read" %}{% assign status_label = "Read" %}
+  {% when "unread" %}{% assign status_label = "On the shelf" %}
+  {% else %}{% assign status_label = page.status %}
+{% endcase %}
+{% assign notes = content | strip_html | strip %}
+{% assign origin = page.origin | default: "" | strip %}
+{% assign genre_text = "" %}
+{% if page.genre %}
+  {% assign genre_json = page.genre | jsonify %}
+  {% if genre_json contains "[" %}
+    {% assign genre_text = page.genre | join: " · " %}
+  {% else %}
+    {% assign genre_text = page.genre %}
+  {% endif %}
+{% endif %}
+
+<article class="book-page wrap">
+  <header class="book-page-head">
+    <div class="book-cover book-cover--large">
+      {% if page.cover %}
+        <img src="{{ page.cover }}" alt="Cover of {{ page.title | escape }}">
+      {% endif %}
+    </div>
+    <div>
+      <div class="eyebrow">
+        {{ page.language | default: 'en' | upcase }}
+        {% if genre_text != "" %}
+          · {{ genre_text }}
+        {% endif %}
+        ·
+        {{ status_label }}
+      </div>
+      <h1 class="title">{{ page.title | escape }}</h1>
+      {% if page.author %}
+        <p class="book-author">{{ page.author | escape }}</p>
+      {% endif %}
+      {% if page.started or page.finished %}
+        <p class="book-dates">
+          {% if page.started %}Started {{ page.started | date: "%b %Y" }}{% endif %}
+          {% if page.started and page.finished %} · {% endif %}
+          {% if page.finished %}Finished {{ page.finished | date: "%b %Y" }}{% endif %}
+        </p>
+      {% endif %}
+    </div>
+  </header>
+
+  {% if origin != "" %}
+    <section class="book-origin">
+      <h2 class="year-heading">How did I get to this book?</h2>
+      <div class="prose">{{ page.origin | markdownify }}</div>
+    </section>
+  {% endif %}
+
+  {% if notes != "" %}
+    <section class="book-notes">
+      {% if origin != "" %}
+        <h2 class="year-heading">Notes</h2>
+      {% endif %}
+      <div class="prose">{{ content }}</div>
+    </section>
+  {% endif %}
+
+  <p class="post-back"><a href="{{ '/bookshelf/' | relative_url }}">← The shelf</a></p>
+</article>

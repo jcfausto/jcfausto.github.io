@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">{{ site.data.site.thoughts.eyebrow }}</div>
+    <h1 class="title">{{ site.data.site.thoughts.index_title }}</h1>
+    <p class="hero-sub">{{ site.data.site.thoughts.index_note }}</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="thought-list thought-list--page">
+    {% assign sorted_thoughts = site.thoughts | sort: 'date' | reverse %}
+    {% for thought in sorted_thoughts %}
+      {% include thought-card.html thought=thought %}
+    {% endfor %}
+  </div>
+  {% if site.thoughts.size == 0 %}
+    <p class="empty-note">No thoughts published yet.</p>
+  {% endif %}
+</div>

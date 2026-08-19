@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% assign entries = site.photo_journal | sort: "date" | reverse %}
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">{{ site.data.site.photography.eyebrow }}</div>
+    <h1 class="title">{{ site.data.site.photography.journal_title }}</h1>
+    <p class="hero-sub">{{ site.data.site.photography.journal_note }}</p>
+  </div>
+</header>
+
+{% assign by_year = entries | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in by_year %}
+  <div class="year-block">
+    <div class="wrap">
+      <h2 class="year-heading">{{ year.name }}</h2>
+    </div>
+    <div class="article-grid">
+      {% for post in year.items %}
+        {% include article-card.html post=post %}
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+<div class="wrap">
+  <p class="post-back"><a href="{{ '/photography/' | relative_url }}">← All photography</a></p>
+</div>

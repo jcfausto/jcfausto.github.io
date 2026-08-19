@@ -1,0 +1,67 @@
+.thought-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.thought-list--page {
+  padding-bottom: 80px;
+}
+
+.thought-card {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: baseline;
+}
+
+.thought-card .yr {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--accent);
+  white-space: nowrap;
+  transition: color .3s var(--ease);
+}
+
+.thought-card .yr:hover { color: var(--ink); }
+
+.thought-body {
+  font-size: 16.5px;
+  color: var(--ink);
+  max-width: 62ch;
+}
+
+.thought-body p + p { margin-top: 12px; }
+
+.thought-body a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.thought-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--c-write);
+}
+
+.thought-link::after { content: " ↗"; }
+
+.thought-permalink {
+  padding: 140px 0 80px;
+}
+
+.empty-note {
+  color: var(--paper-dim);
+  padding: 40px 0 80px;
+}
+
+@media (max-width: 560px) {
+  .thought-card {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

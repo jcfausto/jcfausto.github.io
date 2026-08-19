@@ -1,34 +1,96 @@
-# this is only for search engines, it does not appear in the home
-# as long as the json variables name and description are provided
-mode: light
-title: Julio's Website
+title: Julio Cesar Fausto
 author: Julio Cesar Fausto
-author_image: /assets/images/jcfausto.png
-description: Julio Cesar Fausto's personal website
-baseurl: ""
+description: Head of Engineering, writer, and photographer in Berlin.
 url: https://jcfausto.com
-photo_website: https://jcfausto.net
+baseurl: ""
+lang: en
+
+logo: /assets/images/julio-portrait.png
 
 social:
-  - title: github
-    url: https://github.com/jcfausto
-    icon: github
-  - title: linkedin
-    url: https://www.linkedin.com/in/jcfausto/
-    icon: linkedin
+  name: Julio Cesar Fausto
+  links:
+    - https://github.com/jcfausto
+    - https://www.linkedin.com/in/jcfausto
+    - https://www.instagram.com/juliofaustophotography/
+    - https://jcfausto.com/photography/
+
+permalink: /writing/:title/
+
+collections:
+  thoughts:
+    output: true
+    permalink: /thoughts/:name/
+  books:
+    output: true
+    permalink: /bookshelf/:name/
+  galleries:
+    output: true
+    permalink: /photography/:name/
+  photo_journal:
+    output: true
+    permalink: /photography/journal/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      language: en
+      facet: write
+  - scope:
+      path: ""
+      type: thoughts
+    values:
+      layout: thought
+      facet: write
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+      language: en
+      facet: photo
+  - scope:
+      path: ""
+      type: galleries
+    values:
+      layout: gallery
+      facet: photo
+  - scope:
+      path: ""
+      type: photo_journal
+    values:
+      layout: photo-journal
+      language: en
+      facet: photo
+  - scope:
+      path: ""
+    values:
+      layout: default
+      facet: work
 
 exclude:
-  - LICENSE
+  - Dockerfile
+  - docker-compose.yml
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .ruby-lsp
+  - scripts
+  - books_to_process.csv
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-admin
+  - jekyll-redirect-from
 
-whitelist:
-  - jekyll-sitemap
+feed:
+  path: feed.xml
+  excerpt_only: true
 
 sass:
   sass_dir: _sass

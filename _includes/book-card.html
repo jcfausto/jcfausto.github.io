@@ -1,0 +1,22 @@
+{% assign book = include.book %}
+{% assign featured = include.featured %}
+{% case book.status %}
+  {% when "reading" %}{% assign status_label = "Reading" %}
+  {% when "read" %}{% assign status_label = "Read" %}
+  {% when "unread" %}{% assign status_label = "On the shelf" %}
+  {% else %}{% assign status_label = book.status %}
+{% endcase %}
+<a class="book-card{% if featured %} book-card--featured{% endif %}" href="{{ book.url | relative_url }}">
+  <div class="book-cover">
+    {% if book.cover %}
+      <img src="{{ book.cover }}" alt="Cover of {{ book.title | escape }}">
+    {% endif %}
+  </div>
+  <div class="book-meta">
+    <span class="book-status">{{ status_label }}</span>
+    <h3>{{ book.title | escape }}</h3>
+    {% if book.author %}
+      <p class="book-author">{{ book.author | escape }}</p>
+    {% endif %}
+  </div>
+</a>

@@ -1,0 +1,19 @@
+{% assign post = include.post %}
+{% assign lang = post.language | default: 'en' | upcase %}
+{% assign blurb = post.content | strip_html | normalize_whitespace %}
+{% if blurb == post.title %}
+  {% assign blurb = "" %}
+{% else %}
+  {% assign blurb = blurb | remove_first: post.title | strip | truncate: 180 %}
+{% endif %}
+<article class="article-card">
+  <div class="meta">
+    <span>{{ lang }}{% if post.recovered %} · Archive{% endif %}</span>
+    <span>{{ post.date | date: "%b %Y" }}</span>
+  </div>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+  {% if blurb != "" %}
+  <p>{{ blurb }}</p>
+  {% endif %}
+  <a class="read" href="{{ post.url | relative_url }}">Read the article</a>
+</article>

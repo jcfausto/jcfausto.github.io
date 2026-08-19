@@ -1,5 +1,9 @@
 ---
 layout: post
+language: en
+redirect_from:
+  - /2023/11/25/a-new-beginning.html
+  - /2023/11/25/a-new-beginning/
 title: "A new beginning"
 ---
 

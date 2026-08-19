@@ -1,0 +1,263 @@
+#!/usr/bin/env python3
+"""Create book pages from books_to_process.csv, then drop processed rows.
+
+Usage (from the repo root):
+
+    ./scripts/process-books
+
+CSV columns (header row required):
+
+    title,author,status,genre,language,cover,started,finished,origin,notes,slug
+
+Only title is required. status defaults to unread. language defaults to en
+(omitted from the file). slug is generated from title when blank.
+
+If assets/images/books/<slug>.jpg already exists, cover is set automatically.
+Multiple genres: separate with a semicolon (Fiction; Philosophy).
+"""
+
+from __future__ import annotations
+
+import csv
+import json
+import re
+import sys
+import unicodedata
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+CSV_PATH = ROOT / "books_to_process.csv"
+BOOKS_DIR = ROOT / "_books"
+COVERS_DIR = ROOT / "assets" / "images" / "books"
+
+COLUMNS = [
+    "title",
+    "author",
+    "status",
+    "genre",
+    "language",
+    "cover",
+    "started",
+    "finished",
+    "origin",
+    "notes",
+    "slug",
+]
+
+STATUSES = {"reading", "read", "unread"}
+STATUS_ALIASES = {
+    "on the shelf": "unread",
+    "shelf": "unread",
+    "currently reading": "reading",
+    "finished": "read",
+}
+
+
+def die(message: str, code: int = 1) -> None:
+    print(message, file=sys.stderr)
+    sys.exit(code)
+
+
+def slugify(title: str) -> str:
+    text = unicodedata.normalize("NFKD", title)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-")
+
+
+def cell(row: dict, key: str) -> str:
+    return (row.get(key) or "").strip()
+
+
+def yaml_string(value: str) -> str:
+    return json.dumps(value, ensure_ascii=False)
+
+
+def yaml_block(key: str, value: str) -> list[str]:
+    lines = [f"{key}: |"]
+    for line in value.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
+        lines.append(f"  {line}")
+    return lines
+
+
+def normalize_status(value: str) -> str:
+    if not value:
+        return "unread"
+    key = value.strip().lower()
+    key = STATUS_ALIASES.get(key, key)
+    return key
+
+
+def normalize_language(value: str) -> str:
+    return value.strip().lower()
+
+
+def genres(value: str) -> list[str]:
+    if not value:
+        return []
+    parts = [part.strip() for part in value.split(";")]
+    return [part for part in parts if part]
+
+
+def cover_path(slug: str, explicit: str) -> str:
+    if explicit:
+        if explicit.startswith("/"):
+            return explicit
+        if explicit.startswith("assets/"):
+            return "/" + explicit
+        return f"/assets/images/books/{explicit}"
+    filename = COVERS_DIR / f"{slug}.jpg"
+    if filename.exists():
+        return f"/assets/images/books/{slug}.jpg"
+    return ""
+
+
+def render_book(data: dict) -> str:
+    lines = ["---"]
+    lines.append(f"title: {yaml_string(data['title'])}")
+    if data.get("author"):
+        lines.append(f"author: {yaml_string(data['author'])}")
+    lines.append(f"status: {data['status']}")
+    if data.get("genre"):
+        items = data["genre"]
+        if len(items) == 1:
+            lines.append(f"genre: {yaml_string(items[0])}")
+        else:
+            lines.append("genre:")
+            for item in items:
+                lines.append(f"  - {yaml_string(item)}")
+    if data.get("language"):
+        lines.append(f"language: {data['language']}")
+    if data.get("cover"):
+        lines.append(f"cover: {data['cover']}")
+    if data.get("started"):
+        lines.append(f"started: {data['started']}")
+    if data.get("finished"):
+        lines.append(f"finished: {data['finished']}")
+    if data.get("origin"):
+        lines.extend(yaml_block("origin", data["origin"]))
+    lines.append("---")
+    notes = data.get("notes") or ""
+    if notes:
+        lines.append("")
+        lines.append(notes.rstrip())
+        lines.append("")
+    else:
+        lines.append("")
+    return "\n".join(lines)
+
+
+def read_queue(path: Path) -> tuple[list[str], list[dict]]:
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        reader = csv.DictReader(handle)
+        if not reader.fieldnames:
+            die(f"{path.name} has no header row.")
+        fieldnames = [name.strip() for name in reader.fieldnames if name and name.strip()]
+        rows = []
+        for raw in reader:
+            row = {(key or "").strip(): (value or "").strip() if value is not None else "" for key, value in raw.items()}
+            if not any(row.values()):
+                continue
+            rows.append(row)
+    return fieldnames, rows
+
+
+def write_queue(path: Path, fieldnames: list[str], rows: list[dict]) -> None:
+    columns = fieldnames or COLUMNS
+    tmp = path.with_suffix(".csv.tmp")
+    with tmp.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=columns, extrasaction="ignore")
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({key: row.get(key, "") for key in columns})
+    tmp.replace(path)
+
+
+def process_row(row: dict, seen_slugs: set[str]) -> tuple[str, str]:
+    """Return ('created'|'skipped', slug) or raise ValueError."""
+    title = cell(row, "title")
+    if not title:
+        raise ValueError("missing title")
+
+    slug = cell(row, "slug") or slugify(title)
+    if not slug:
+        raise ValueError("could not build a slug from title")
+    if slug in seen_slugs:
+        raise ValueError(f"duplicate slug '{slug}'")
+
+    status = normalize_status(cell(row, "status"))
+    if status not in STATUSES:
+        raise ValueError(f"status must be reading, read, or unread (got '{cell(row, 'status')}')")
+
+    language = normalize_language(cell(row, "language"))
+    dest = BOOKS_DIR / f"{slug}.md"
+    data = {
+        "title": title,
+        "author": cell(row, "author"),
+        "status": status,
+        "genre": genres(cell(row, "genre")),
+        "language": language if language and language != "en" else "",
+        "cover": cover_path(slug, cell(row, "cover")),
+        "started": cell(row, "started"),
+        "finished": cell(row, "finished"),
+        "origin": cell(row, "origin"),
+        "notes": cell(row, "notes"),
+    }
+
+    if dest.exists():
+        return "skipped", slug
+
+    dest.write_text(render_book(data), encoding="utf-8")
+    return "created", slug
+
+
+def main() -> None:
+    if not CSV_PATH.exists():
+        write_queue(CSV_PATH, COLUMNS, [])
+        die(
+            f"Created empty {CSV_PATH.name}. Add rows, then run again.\n"
+            f"Columns: {', '.join(COLUMNS)}",
+            code=0,
+        )
+
+    fieldnames, rows = read_queue(CSV_PATH)
+    if not rows:
+        print(f"No books in {CSV_PATH.name}.")
+        return
+
+    BOOKS_DIR.mkdir(parents=True, exist_ok=True)
+
+    remaining: list[dict] = []
+    created = skipped = failed = 0
+    seen: set[str] = set()
+
+    print(f"Processing {len(rows)} book(s) from {CSV_PATH.name}…")
+
+    for row in rows:
+        try:
+            action, slug = process_row(row, seen)
+        except ValueError as error:
+            failed += 1
+            remaining.append(row)
+            label = cell(row, "title") or cell(row, "slug") or "(untitled)"
+            print(f"  keep  {label} — {error}")
+            continue
+
+        seen.add(slug)
+        if action == "created":
+            created += 1
+            print(f"  new   _books/{slug}.md")
+        else:
+            skipped += 1
+            print(f"  skip  _books/{slug}.md (already exists)")
+
+    write_queue(CSV_PATH, fieldnames, remaining)
+    print(
+        f"Done. created {created}, skipped {skipped}, kept in CSV {failed}. "
+        f"{len(remaining)} row(s) left in {CSV_PATH.name}."
+    )
+
+
+if __name__ == "__main__":
+    main()

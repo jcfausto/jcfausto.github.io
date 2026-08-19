@@ -39,6 +39,8 @@ GEM
       sinatra-contrib (>= 1.4)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-redirect-from (0.16.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -65,7 +67,6 @@ GEM
     rack (2.2.8)
     rack-protection (3.1.0)
       rack (~> 2.2, >= 2.2.4)
-    rake (13.0.6)
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -73,9 +74,12 @@ GEM
     rouge (4.1.2)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.64.1)
+    sass-embedded (1.64.1-aarch64-linux-musl)
       google-protobuf (~> 3.23)
-      rake (>= 13.0.0)
+    sass-embedded (1.64.1-x86_64-darwin)
+      google-protobuf (~> 3.23)
+    sass-embedded (1.64.1-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
@@ -96,14 +100,17 @@ GEM
 PLATFORMS
   aarch64-linux-musl
   x86_64-darwin-22
+  x86_64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.3, >= 4.3.2)
   jekyll-admin (~> 0.11.1)
   jekyll-feed (~> 0.15)
+  jekyll-redirect-from (~> 0.16)
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)
+  webrick
 
 BUNDLED WITH
    2.4.17

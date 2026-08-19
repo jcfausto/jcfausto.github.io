@@ -1,0 +1,76 @@
+nav_mark: Julio Cesar Fausto
+
+hero:
+  eyebrow: What I make, what I think, and what I see.
+  line1: Julio Cesar
+  line2: "Fausto, in"
+  em: three
+  line3: acts.
+  sub: >
+    I lead engineering organisations and build AI-powered products by day,
+    write about the things I notice along the way, and photograph the beauty of
+    life and nature as I see them.
+
+about:
+  eyebrow: 01 — About
+  title: The professional.
+  note: 20+ years building software products and the engineering organisations behind them.
+  bio:
+    - "<strong>I'm Julio</strong> — Head of Engineering at Empion, based in Berlin. I lead engineering strategy, architecture, and delivery for the team building Empion's AI-powered talent-matching platform, while staying hands-on across ML pipelines, cloud infrastructure, and product direction."
+    - "Over 20+ years I've led engineering orgs of various sizes across startups, scale-ups, and established companies — Empion, Door2Door, Spark Networks, Softplan — building high-performing teams, navigating M&amp;A and organisational change, and turning business objectives into scalable technical solutions."
+  tags:
+    - Engineering leadership
+    - AI & ML
+    - Software architecture
+    - Full-stack development
+    - Cloud & Infrastructure
+    - Team building
+    - M&A integration
+  portrait: /assets/images/julio-portrait.png
+  portrait_alt: Portrait of Julio Cesar Fausto
+
+writing:
+  eyebrow: 02 — Writing
+  title: "Thoughts, mostly half-finished."
+  note: Notes on technology, leadership, AI product development, and whatever else comes to mind.
+  index_title: All the articles.
+  index_note: Blog posts and notes, in English and Portuguese, from 2013 to now.
+
+thoughts:
+  eyebrow: 03 — Thoughts
+  title: Short notes.
+  note: Brief observations — not essays. The things that don't need a full piece.
+  index_title: Short notes.
+  index_note: A stream of brief observations. Newest first.
+
+photography:
+  eyebrow: 05 — Photography
+  title: "What the light was doing."
+  note: Landscapes, wildlife, and architecture.
+  index_title: Making things, capturing moments.
+  index_note: Three collections — woodlands and landscapes, architecture and cityscapes, nature and animal life — and a journal.
+  journal_title: The journal.
+  journal_note: Notes on cameras, craft, and going out to look.
+
+bookshelf:
+  eyebrow: 04 — Bookshelf
+  title: Currently reading.
+  note: Books on the shelf — photographed at home, not from a catalogue.
+  index_title: The shelf.
+  index_note: Currently reading first, then what I've finished, then what's waiting.
+
+contact:
+  eyebrow: 06 — Get in touch
+  cta: Always up for a good project or a good frame.
+  location: Berlin, Germany
+  links:
+    - label: jcfausto@gmail.com
+      url: mailto:jcfausto@gmail.com
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/jcfausto
+    - label: Instagram
+      url: https://www.instagram.com/juliofaustophotography/
+    - label: Photography
+      url: /photography/
+    - label: GitHub
+      url: https://github.com/jcfausto

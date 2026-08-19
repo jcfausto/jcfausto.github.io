@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% assign photos = site.data.photos | where: "collection", page.slug %}
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">{{ site.data.site.photography.eyebrow }}</div>
+    <h1 class="title">{{ page.title | escape }}</h1>
+    {% if page.description %}
+      <p class="hero-sub">{{ page.description | escape }}</p>
+    {% endif %}
+  </div>
+</header>
+
+<div class="wrap gallery-page">
+  <div class="photo-grid photo-grid--gallery">
+    {% for photo in photos %}
+      <figure>
+        <img src="{{ photo.src | relative_url }}" alt="{{ photo.alt | escape }}">
+        {% if photo.caption %}
+          <figcaption>{{ photo.caption | escape }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+  <p class="post-back"><a href="{{ '/photography/' | relative_url }}">← All photography</a></p>
+</div>
+
+{% include lightbox.html %}

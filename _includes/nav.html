@@ -1,0 +1,14 @@
+<nav>
+  <a class="mark" href="{{ '/' | relative_url }}"><span class="dot"></span>{{ site.data.site.nav_mark }}</a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navlinks" aria-label="Open menu">
+    <span></span><span></span>
+  </button>
+  <div class="navlinks" id="navlinks">
+    <a href="{{ '/#work' | relative_url }}" class="navlink{% if page.layout == 'home' %} active{% endif %}" data-spy="work" data-target="work">About</a>
+    <a href="{{ '/writing/' | relative_url }}" class="navlink{% if page.layout == 'writing' or page.layout == 'post' %} active{% endif %}" data-spy="writing" data-target="write">Writing</a>
+    <a href="{{ '/thoughts/' | relative_url }}" class="navlink{% if page.layout == 'thoughts' or page.layout == 'thought' %} active{% endif %}" data-spy="thoughts" data-target="write">Thoughts</a>
+    <a href="{{ '/bookshelf/' | relative_url }}" class="navlink{% if page.layout == 'bookshelf' or page.layout == 'book' %} active{% endif %}" data-spy="bookshelf" data-target="photo">Bookshelf</a>
+    <a href="{{ '/photography/' | relative_url }}" class="navlink{% if page.layout == 'photography' or page.layout == 'gallery' or page.layout == 'photo-journal' or page.layout == 'photo-journal-index' %} active{% endif %}" data-spy="photography" data-target="photo">Photos</a>
+    <a href="{{ '/#contact' | relative_url }}" class="navlink" data-spy="contact" data-target="work">Contact</a>
+  </div>
+</nav>

@@ -1,0 +1,13 @@
+{% assign thought = include.thought %}
+{% assign body = include.body | default: thought.content %}
+<article class="thought-card">
+  <a class="yr" href="{{ thought.url | relative_url }}">{{ thought.date | date: "%-d %b %Y" }}</a>
+  <div class="thought-main">
+    <div class="thought-body">{{ body }}</div>
+    {% if thought.link and thought.link != "" %}
+      <a class="thought-link" href="{{ thought.link }}" target="_blank" rel="noopener">
+        {{ thought.link_title | default: thought.link }}
+      </a>
+    {% endif %}
+  </div>
+</article>

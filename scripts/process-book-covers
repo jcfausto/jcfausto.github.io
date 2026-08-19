@@ -1,0 +1,108 @@
+#!/usr/bin/env bash
+# Convert dropped book-cover originals into site-ready JPEGs.
+#
+# Drop files next to the processed covers as:
+#   assets/images/books/_unprocessed-the-slug.jpg
+# or inside:
+#   assets/images/books/_unprocessed/the-slug.jpg
+#
+# Then run:
+#   ./scripts/process-book-covers
+#
+# Output: assets/images/books/the-slug.jpg
+# (JPEG, longest side at most 900px, not upscaled)
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+BOOKS="$ROOT/assets/images/books"
+DROP="$BOOKS/_unprocessed"
+MAX_EDGE=900
+QUALITY=85
+
+if command -v magick >/dev/null 2>&1; then
+  ENGINE="magick"
+elif command -v sips >/dev/null 2>&1; then
+  ENGINE="sips"
+else
+  echo "Need ImageMagick (magick) or macOS sips to process covers." >&2
+  exit 1
+fi
+
+slug_from_prefix() {
+  local base="$1"
+  base="${base#_unprocessed-}"
+  echo "${base%.*}"
+}
+
+process() {
+  local src="$1"
+  local slug="$2"
+  local dest="$BOOKS/${slug}.jpg"
+
+  mkdir -p "$BOOKS"
+
+  if [[ "$ENGINE" == "magick" ]]; then
+    magick "$src" \
+      -resize "${MAX_EDGE}x${MAX_EDGE}>" \
+      -quality "$QUALITY" \
+      -strip \
+      "$dest"
+  else
+    local tmp
+    tmp="$(mktemp -t bookcover)"
+    sips -s format jpeg -s formatOptions "$QUALITY" --out "$tmp" "$src" >/dev/null
+
+    local w h max
+    w="$(sips -g pixelWidth "$tmp" | awk '/pixelWidth/{print $2}')"
+    h="$(sips -g pixelHeight "$tmp" | awk '/pixelHeight/{print $2}')"
+    max="$w"
+    [[ "$h" -gt "$w" ]] && max="$h"
+
+    if [[ "$max" -gt "$MAX_EDGE" ]]; then
+      sips --resampleHeightWidthMax "$MAX_EDGE" "$tmp" >/dev/null
+    fi
+
+    mv "$tmp" "$dest"
+  fi
+
+  echo "  $slug.jpg"
+}
+
+count=0
+
+echo "Processing book covers ($ENGINE)…"
+
+shopt -s nullglob
+
+for src in "$BOOKS"/_unprocessed-*.*; do
+  [[ -f "$src" ]] || continue
+  slug="$(slug_from_prefix "$(basename "$src")")"
+  [[ -n "$slug" && "$slug" != "$(basename "$src")" ]] || continue
+  process "$src" "$slug"
+  count=$((count + 1))
+done
+
+if [[ -d "$DROP" ]]; then
+  for src in "$DROP"/*.*; do
+    [[ -f "$src" ]] || continue
+    [[ "$(basename "$src")" == .* ]] && continue
+    slug="$(basename "$src")"
+    slug="${slug%.*}"
+    [[ "$slug" == ".gitkeep" ]] && continue
+    process "$src" "$slug"
+    count=$((count + 1))
+  done
+fi
+
+if [[ "$count" -eq 0 ]]; then
+  echo "No unprocessed covers found."
+  echo "Drop a file at:"
+  echo "  $BOOKS/_unprocessed-the-slug.jpg"
+  echo "or:"
+  echo "  $DROP/the-slug.jpg"
+  exit 0
+fi
+
+echo "Wrote $count cover(s) to $BOOKS"
+echo "Set cover: /assets/images/books/the-slug.jpg in the book’s front matter."

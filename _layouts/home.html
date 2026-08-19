@@ -1,42 +1,151 @@
 ---
 layout: default
-home: true
 ---
 
-<div class="photo-of-the-month">
-  <h2>Photo of the month <span>({{ site.data.photo_of_the_month[0].month }} {{ site.data.photo_of_the_month[0].year }})</span></h2>
-  <div class="photo-grid">
-    {% for photo in site.data.photo_of_the_month %}
-      <div class="photo-grid-item">
-        <div class="single-photo-grid-item">
-          <a href="{{ site.photo_website }}" target="_blank">
-            <img src="{{ photo.url }}" alt="{{ photo.alt }}">
-          </a>
+<header class="hero">
+  <div class="facet-strip"><span></span><span></span><span></span></div>
+  <div class="wrap">
+    <div class="eyebrow">{{ site.data.site.hero.eyebrow }}</div>
+    <h1 class="name">{{ site.data.site.hero.line1 }}<br>{{ site.data.site.hero.line2 }} <em>{{ site.data.site.hero.em }}</em><br>{{ site.data.site.hero.line3 }}</h1>
+    <p class="hero-sub">{{ site.data.site.hero.sub | strip }}<span class="cursor" aria-hidden="true"></span></p>
+
+  </div>
+  <div class="scroll-cue"><div class="line"></div>Scroll</div>
+</header>
+
+<section id="work" data-facet="work">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">{{ site.data.site.about.eyebrow }}</div>
+        <h2 class="title">{{ site.data.site.about.title }}</h2>
+      </div>
+      <p class="section-note">{{ site.data.site.about.note }}</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="portrait">
+        <img src="{{ site.data.site.about.portrait | relative_url }}" alt="{{ site.data.site.about.portrait_alt }}">
+      </div>
+      <div>
+        <div class="bio">
+          {% for para in site.data.site.about.bio %}
+            <p>{{ para }}</p>
+          {% endfor %}
+        </div>
+
+        <div class="tags">
+          {% for tag in site.data.site.about.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+
+        <div class="timeline">
+          {% for row in site.data.timeline %}
+            <div class="tl-row">
+              <span class="yr">{{ row.years }}</span>
+              <span class="role">{{ row.role }}</span>
+              <span class="org">{{ row.org }}</span>
+            </div>
+          {% endfor %}
         </div>
       </div>
-    {% endfor %}
+    </div>
   </div>
-</div>
+</section>
 
-<div class="photo-portfolio">
-  <h2>Did you see my photo website yet?</h2>
-  <div class="photo-grid">
-    {% for photo in site.data.photo_portfolio %}
-      <div class="photo-grid-item">
-        <a href="{{ site.photo_website }}" target="_blank">
-          <img src="{{ photo.url }}" alt="{{ photo.alt }}" style="width:100%">
-        </a>
+<section id="writing" data-facet="write">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">{{ site.data.site.writing.eyebrow }}</div>
+        <h2 class="title">{{ site.data.site.writing.title | replace: ' half-finished.', '<br>half-finished.' }}</h2>
       </div>
+      <p class="section-note">
+        {{ site.data.site.writing.note }}
+        <a class="section-more" href="{{ '/writing/' | relative_url }}">All writing →</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="article-grid">
+    {% for post in site.posts limit: 3 %}
+      {% include article-card.html post=post %}
     {% endfor %}
   </div>
-</div>
+</section>
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
-<article class="post-item">
-  <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-  <h4 class="post-item-title">
-    <a href="{{ post.url }}">{{ post.title | escape }}</a>
-  </h4>
-</article>
-{%- endfor -%}
+{% if site.thoughts.size > 0 %}
+<section id="thoughts" data-facet="write">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">{{ site.data.site.thoughts.eyebrow }}</div>
+        <h2 class="title">{{ site.data.site.thoughts.title }}</h2>
+      </div>
+      <p class="section-note">
+        {{ site.data.site.thoughts.note }}
+        <a class="section-more" href="{{ '/thoughts/' | relative_url }}">All thoughts →</a>
+      </p>
+    </div>
+
+    <div class="thought-list">
+      {% assign latest_thoughts = site.thoughts | sort: 'date' | reverse %}
+      {% for thought in latest_thoughts limit: 5 %}
+        {% include thought-card.html thought=thought %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% assign currently_reading = site.books | where: "status", "reading" %}
+{% if currently_reading.size > 0 %}
+<section id="bookshelf" data-facet="photo">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">{{ site.data.site.bookshelf.eyebrow }}</div>
+        <h2 class="title">{{ site.data.site.bookshelf.title }}</h2>
+      </div>
+      <p class="section-note">
+        {{ site.data.site.bookshelf.note }}
+        <a class="section-more" href="{{ '/bookshelf/' | relative_url }}">The shelf →</a>
+      </p>
+    </div>
+
+    <div class="book-grid book-grid--featured">
+      {% for book in currently_reading %}
+        {% include book-card.html book=book featured=true %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section id="photography" data-facet="photo">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">{{ site.data.site.photography.eyebrow }}</div>
+        <h2 class="title">{{ site.data.site.photography.title | replace: ' was doing.', '<br>was doing.' }}</h2>
+      </div>
+      <p class="section-note">
+        {{ site.data.site.photography.note }}
+        <a class="section-more" href="{{ '/photography/' | relative_url }}">All photography →</a>
+      </p>
+    </div>
+
+    <div class="photo-grid" id="photoGrid">
+      {% assign featured_photos = site.data.photos | where: "featured", true %}
+      {% for photo in featured_photos %}
+        <figure class="{{ photo.class }}">
+          <img src="{{ photo.src | relative_url }}" alt="{{ photo.alt | escape }}">
+          <figcaption>{{ photo.caption | escape }}</figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include lightbox.html %}

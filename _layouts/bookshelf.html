@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+{% assign reading = site.books | where: "status", "reading" %}
+{% assign read = site.books | where: "status", "read" | sort: "title" %}
+{% assign unread = site.books | where: "status", "unread" | sort: "title" %}
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">{{ site.data.site.bookshelf.eyebrow }}</div>
+    <h1 class="title">{{ site.data.site.bookshelf.index_title }}</h1>
+    <p class="hero-sub">{{ site.data.site.bookshelf.index_note }}</p>
+  </div>
+</header>
+
+<div class="wrap bookshelf-page">
+  {% if reading.size > 0 %}
+    <section class="shelf-group">
+      <h2 class="year-heading">Currently reading</h2>
+      <div class="book-grid book-grid--featured">
+        {% for book in reading %}
+          {% include book-card.html book=book featured=true %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if read.size > 0 %}
+    <section class="shelf-group">
+      <h2 class="year-heading">Read</h2>
+      <div class="book-grid">
+        {% for book in read %}
+          {% include book-card.html book=book %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if unread.size > 0 %}
+    <section class="shelf-group">
+      <h2 class="year-heading">On the shelf</h2>
+      <div class="book-grid">
+        {% for book in unread %}
+          {% include book-card.html book=book %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if site.books.size == 0 %}
+    <p class="empty-note">No books on the shelf yet.</p>
+  {% endif %}
+</div>

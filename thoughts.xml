@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /thoughts.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ site.url }}/thoughts.xml</id>
+  <title>{{ site.title }} — Thoughts</title>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <link rel="self" type="application/atom+xml" href="{{ site.url }}/thoughts.xml"/>
+  <link rel="alternate" type="text/html" href="{{ site.url }}/thoughts/"/>
+  <subtitle>Short notes from {{ site.author }}</subtitle>
+  <author>
+    <name>{{ site.author }}</name>
+    <uri>{{ site.url }}</uri>
+  </author>
+  {% assign sorted_thoughts = site.thoughts | sort: 'date' | reverse %}
+  {% for thought in sorted_thoughts limit: 20 %}
+  <entry>
+    <id>{{ site.url }}{{ thought.url }}</id>
+    <title type="html">{{ thought.date | date: "%-d %b %Y" | xml_escape }}</title>
+    <link rel="alternate" type="text/html" href="{{ site.url }}{{ thought.url }}"/>
+    <published>{{ thought.date | date_to_xmlschema }}</published>
+    <updated>{{ thought.date | date_to_xmlschema }}</updated>
+    <content type="html">{{ thought.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
