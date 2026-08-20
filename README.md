@@ -31,12 +31,15 @@ _posts/2026-08-19-the-slug.md
 ---
 title: "The title"
 language: en
+own_writing: true
 ---
 
 Body of the post.
 ```
 
 Published at `/writing/the-slug/`. Use `language: pt` for Portuguese.
+
+Set `own_writing: true` when the post was written by you and AI was used only for grammar and structure. That shows a short authorship note at the bottom of the post. Omit it, or set `own_writing: false`, to hide the note.
 
 **Thoughts** (short notes) — create a file in `_thoughts/`:
 

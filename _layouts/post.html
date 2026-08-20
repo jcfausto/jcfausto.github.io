@@ -17,5 +17,16 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+  {% if page.own_writing %}
+    <aside class="post-own-writing">
+      {% if page.language == 'pt' %}
+        <p class="post-own-writing-label">Uma nota sobre autoria</p>
+        <p>Este texto foi escrito inteiramente por mim, um humano. IA foi usada apenas para correção gramatical e sugestões de melhoria estrutural, não de conteúdo.</p>
+      {% else %}
+        <p class="post-own-writing-label">A note on authorship</p>
+        <p>This article was written entirely by me, a human. AI was used only for grammar correction and structural improvement suggestions, not for content.</p>
+      {% endif %}
+    </aside>
+  {% endif %}
   <p class="post-back"><a href="{{ '/writing/' | relative_url }}">← All writing</a></p>
 </article>

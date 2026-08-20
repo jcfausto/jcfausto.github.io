@@ -26,11 +26,47 @@
   text-underline-offset: 3px;
 }
 
+.post-own-writing {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
+.post-own-writing-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post-own-writing-label::before {
+  content: "";
+  width: 22px;
+  height: 1px;
+  background: var(--accent);
+}
+
+.post-own-writing p + p {
+  font-size: 14.5px;
+  line-height: 1.65;
+  color: var(--paper-dim);
+  max-width: 48ch;
+}
+
 .post-back {
   margin-top: 56px;
   font-family: var(--mono);
   font-size: 13px;
   color: var(--accent);
+}
+
+.post-own-writing + .post-back {
+  margin-top: 32px;
 }
 
 .prose > h1:first-child { display: none; }
