@@ -74,3 +74,7 @@ contact:
       url: /photography/
     - label: GitHub
       url: https://github.com/jcfausto
+    - label: Atom
+      url: /atom.xml
+    - label: RSS
+      url: /rss.xml

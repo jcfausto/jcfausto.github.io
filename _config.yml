@@ -89,7 +89,7 @@ plugins:
   - jekyll-redirect-from
 
 feed:
-  path: feed.xml
+  path: atom.xml
   excerpt_only: true
 
 sass:

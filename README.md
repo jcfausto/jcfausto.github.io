@@ -110,7 +110,7 @@ language: en
 The post.
 ```
 
-Published at `/photography/journal/the-slug/`. These do **not** appear in Writing or `/feed.xml`.
+Published at `/photography/journal/the-slug/`. These do **not** appear in Writing or the writing feeds (`/atom.xml`, `/rss.xml`).
 
 ## Books
 
@@ -214,13 +214,14 @@ Optional notes. Leave empty if this is only a shelf entry.
 
 - `reading` books appear on the homepage and at the top of `/bookshelf/`.
 - `read` and `unread` (“On the shelf”) appear only on `/bookshelf/`.
-- Notes and `origin` do **not** show up in Writing or `/feed.xml`.
+- Notes and `origin` do **not** show up in Writing or the writing feeds (`/atom.xml`, `/rss.xml`).
 - `redirect_from` is supported if an old URL should keep working.
 
 ## Feeds
 
-- Writing: `/feed.xml`
-- Thoughts: `/thoughts.xml`
+- Writing (Atom): `/atom.xml` — `/feed.xml` redirects here
+- Writing (RSS): `/rss.xml`
+- Thoughts (Atom): `/thoughts.xml`
 
 ## License
 
