@@ -3,6 +3,8 @@ title: "De Kleine Olifant"
 author: "Van Gool"
 status: unread
 cover: /assets/images/books/de-kleine-olifant-van-gool.jpg
+image: /assets/images/books/de-kleine-olifant-van-gool.jpg
+description: "Notes on De Kleine Olifant by Van Gool — on Julio Cesar Fausto’s bookshelf."
 genre: "children"
 language: dutsch
 origin: |

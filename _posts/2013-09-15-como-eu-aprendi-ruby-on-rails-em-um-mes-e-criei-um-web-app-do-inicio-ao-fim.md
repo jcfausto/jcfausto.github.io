@@ -3,6 +3,7 @@ title: "Como eu aprendi Ruby on Rails em um mês e criei um web app do início a
 date: 2013-09-15
 slug: como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/"
 archive_url: "https://web.archive.org/web/20130915111827/http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/"

@@ -3,6 +3,8 @@ title: "Building a Second Brain"
 author: Tiago Forte
 status: read
 cover: /assets/images/books/building-a-second-brain.jpg
+image: /assets/images/books/building-a-second-brain.jpg
+description: "Notes on Building a Second Brain by Tiago Forte — on Julio Cesar Fausto’s bookshelf."
 genre: Nonfiction
 finished: 2022-07-03
 language: en

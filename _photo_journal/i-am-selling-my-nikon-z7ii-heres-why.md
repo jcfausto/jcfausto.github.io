@@ -2,6 +2,8 @@
 title: "The Nikon Z7II Didn't Work For Me - Here's Why"
 date: 2026-06-02
 language: en
+description: "Why I sold the Nikon Z7 II — resolution I didn’t use, files I didn’t enjoy, and a system that didn’t match how I actually shoot."
+image: /assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/nikon-z-7-ii.JPG
 original_url: "https://juliofaustophotography.com/blog/i-am-selling-my-nikon-z7ii-heres-why"
 source: juliofaustophotography.com
 redirect_from:
@@ -9,7 +11,7 @@ redirect_from:
   - /blog/i-am-selling-my-nikon-z7ii-heres-why
 ---
 
-![](/assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/nikon-z-7-ii.JPG)
+![Nikon Z7 II camera](/assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/nikon-z-7-ii.JPG){: loading="lazy" decoding="async"}
 
 The Nikon Z7 II is an excellent camera, but after several months of ownership I realised it wasn't the right camera for me. The reasons have little to do with the camera's capabilities and much more to do with how I shoot, what I value in a camera system, and the expectations I brought into the acquisition of this new camera system.
 
@@ -41,9 +43,9 @@ I remember thinking before I bought the kit that perhaps a second camera body wi
 
 From the 47 images in total that I took with the Nikon Z7 II, these are the ones I like the most. Beautiful autumn trees.
 
-![20251026-Z72_0025.jpg](/assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/20251026-Z72_0025.jpg)
+![Autumn trees photographed with a Nikon Z7 II](/assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/20251026-Z72_0025.jpg){: loading="lazy" decoding="async"}
 
-![20251026-Z72_0030-Enhanced-NR.jpg](/assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/20251026-Z72_0030-Enhanced-NR.jpg)
+![Autumn trees photographed with a Nikon Z7 II](/assets/images/photography/journal/i-am-selling-my-nikon-z7ii-heres-why/20251026-Z72_0030-Enhanced-NR.jpg){: loading="lazy" decoding="async"}
 
 ### Disappointment
 

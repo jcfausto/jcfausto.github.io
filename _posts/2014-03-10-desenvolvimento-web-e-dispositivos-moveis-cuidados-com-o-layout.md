@@ -3,6 +3,7 @@ title: "Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout"
 date: 2014-03-10
 slug: desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/"
 archive_url: "https://web.archive.org/web/20140310055416/http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/"
@@ -35,18 +36,3 @@ Gostaria de contribuir também? Encontrou algum erro na minha tradução? É bem
 Se tiverem dúvidas ou quiserem informações, deixem um comentário.
 
 Abraços.
-
-### Leituras Sugeridas
-
-- [![SEO Analysis – Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/wp-content/uploads/2014/02/seo-graph-from-trimarkfirm-com-150x150.jpg)](http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/)[SEO Analysis – Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/)
-- [![Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2014/03/things-i-wish-to-know-150x150.jpeg)](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)[Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)
-- [![Como eu aprendi ruby on rails em um mês e criei um web app do início ao fim](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/0.jpg)](http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/)[Como eu aprendi ruby on rails em um mês e criei um web app do início ao fim](http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/)
-- [![How to Customize the Bootstrap Navigation Bar CSS](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/30.jpg)](http://jcfausto.com/how-to-customize-the-bootstrap-navigation-bar-css/)[How to Customize the Bootstrap Navigation Bar CSS](http://jcfausto.com/how-to-customize-the-bootstrap-navigation-bar-css/)
-
-![Opt In Image](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

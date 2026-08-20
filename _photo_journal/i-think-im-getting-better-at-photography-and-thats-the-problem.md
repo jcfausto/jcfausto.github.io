@@ -2,6 +2,8 @@
 title: "I Think I'm Getting Better at Photography (And That's the Problem)"
 date: 2026-06-07
 language: en
+description: "A walk in Berlin where taste outran skill — and why that gap is a normal, useful part of learning photography."
+image: /assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060032.jpg
 original_url: "https://juliofaustophotography.com/blog/i-think-im-getting-better-at-photography-and-thats-the-problem"
 source: juliofaustophotography.com
 redirect_from:
@@ -29,11 +31,11 @@ I took a few photographs, but if I’m honest, I returned home feeling slightly 
 
 The images weren’t what I had hoped to create. The photographs in my mind felt stronger than the photographs on my memory card.
 
-![20260606-_6060032.jpg](/assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060032.jpg)
+![Evening photograph from a walk in Berlin](/assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060032.jpg){: loading="lazy" decoding="async"}
 
-![20260606-_6060039.jpg](/assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060039.jpg)
+![Evening photograph from a walk in Berlin](/assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060039.jpg){: loading="lazy" decoding="async"}
 
-![20260606-_6060035.jpg](/assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060035.jpg)
+![Evening photograph from a walk in Berlin](/assets/images/photography/journal/i-think-im-getting-better-at-photography-and-thats-the-problem/20260606-_6060035.jpg){: loading="lazy" decoding="async"}
 
 Still, there was one positive thing: I enjoyed the walk.
 

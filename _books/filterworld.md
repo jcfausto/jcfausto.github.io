@@ -3,6 +3,8 @@ title: "Filterworld: How Algorithms Flattened Culture"
 author: Kyle Chayka
 status: reading
 cover: /assets/images/books/filterworld.jpg
+image: /assets/images/books/filterworld.jpg
+description: "Notes on Filterworld: How Algorithms Flattened Culture by Kyle Chayka — on Julio Cesar Fausto’s bookshelf."
 genre: Culture
 language: EN
 started: 2026-08-01

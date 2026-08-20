@@ -3,6 +3,7 @@ title: "UML e o Pensamento “Silver Bullet”"
 date: 2014-03-10
 slug: uml-e-o-pensamento-silver-bullet
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/uml-e-o-pensamento-silver-bullet/"
 archive_url: "https://web.archive.org/web/20140310054441/http://jcfausto.com/uml-e-o-pensamento-silver-bullet/"
@@ -40,18 +41,3 @@ Até lá, lembre-se sempre da máxima: “Não existe bala de prata”.
 Qual a sua opinião? Deixe um comentário.
 
 Achou o texto interessante? Compartilhe com seus colegas e vamos ampliar este diálogo que só trará benefícios àqueles que o compreenderem.
-
-### Leituras Sugeridas
-
-- [![Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2014/03/things-i-wish-to-know-150x150.jpeg)](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)[Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)
-- [![Google Developer Bus 2013 – O que é?](http://jcfausto.com/wp-content/uploads/2013/12/Google-D.-Bus-425-150x150.jpg)](http://jcfausto.com/google-developer-bus-2013-o-que-e/)[Google Developer Bus 2013 – O que é?](http://jcfausto.com/google-developer-bus-2013-o-que-e/)
-- [![Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/9.jpg)](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)[Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)
-- [![Sincronizando o calendário do outlook com o iphone](http://jcfausto.com/wp-content/uploads/2013/06/IosOutlookSync-150x150.png)](http://jcfausto.com/sincronizando-o-calendario-do-outlook-com-o-iphone/)[Sincronizando o calendário do outlook com o iphone](http://jcfausto.com/sincronizando-o-calendario-do-outlook-com-o-iphone/)
-
-![Opt In Image](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

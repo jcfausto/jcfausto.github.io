@@ -7,6 +7,8 @@ source: jcfausto.com
 original_url: "http://jcfausto.com/2014/05/mudando-meu-blog-mais-uma-vez/"
 archive_url: "https://web.archive.org/web/20140609003420/http://jcfausto.com/2014/05/mudando-meu-blog-mais-uma-vez/"
 recovered: true
+sitemap: false
+noindex: true
 redirect_from:
   - /2014/05/mudando-meu-blog-mais-uma-vez/
 ---
@@ -74,29 +76,3 @@ Ficou curioso?
 Em breve posto aqui como fiz esta mudança e as tecnologias que utilizei. Com isso, se você está lendo este post, tem um blog e entende um pouquinho de tecnologia, é possível que você queira migrar também :)
 
 Não esqueça de me adicionar nos seus favoritos! :)
-
- social sharing buttons 
-           <div class="sharing-buttons">
-            <span class="twitter">
-              <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jcfausto.com/2014/05/mudando-meu-blog-mais-uma-vez/">Tweet</a>
-            </span>
-            <span class="google">
-              <g:plusone size="medium" href="http://jcfausto.com/2014/05/mudando-meu-blog-mais-uma-vez/"></g:plusone>
-            </span>
-            <span class="Facebook">
-              <iframe src="https://www.facebook.com/plugins/like.php?href=http://jcfausto.com/2014/05/mudando-meu-blog-mais-uma-vez/&amp;show_faces=false&amp;layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
-            </span>
-          </div>
- 
-[Julio Cesar Fausto](https://profiles.google.com/jcfausto)
-
-  /content 
-  /container 
-
-- [Twitter](http://twitter.com/jcfausto)
-- [Facebook](https://www.facebook.com/julio.c.fausto)
-- [Github](https://github.com/jcfausto)
-- [Email](mailto:jcfausto@gmail.com)
-- [Linkedin](https://www.linkedin.com/pub/julio-cesar-fausto/32/135/b17)
-
- jQuery Infinite Scrolling

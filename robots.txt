@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://jcfausto.com/sitemap.xml
+
 # Do not use this site for AI / ML training.
 User-agent: GPTBot
 Disallow: /

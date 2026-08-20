@@ -3,6 +3,7 @@ title: "4 Desculpas Esfarrapadas Que Você Precisa Eliminar Da Sua Vida"
 date: 2015-02-11
 slug: 4-desculpas-esfarrapadas-que-voce-precisa-eliminar-da-sua-vida
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/4-desculpas-esfarrapadas-que-voce-precisa-eliminar-da-sua-vida/"
 archive_url: "https://web.archive.org/web/20150423072301/http://jcfausto.com/4-desculpas-esfarrapadas-que-voce-precisa-eliminar-da-sua-vida/"
@@ -60,10 +61,3 @@ E lembre-se! Coisas boas podem acontecer quando você se afasta da sua zona de c
 ————————————-
 
 Então, qual é a sua desculpa? E o que você está fazendo para lutar contra ela? Comportilhe suas idéias e pensamentos no meu blog.
-
-### Leituras Sugeridas
-
-- [![2 Aplicativos Grátis Para Aumentar A Sua Produtividade no Computador](//jcfausto.com/wp-content/uploads/2014/10/Produtividade-150x150.png)](http://jcfausto.com/2-aplicativos-gratis-para-aumentar-a-sua-produtividade-no-computador/)[2 Aplicativos Grátis Para Aumentar A Sua Produtividade no Computador](http://jcfausto.com/2-aplicativos-gratis-para-aumentar-a-sua-produtividade-no-computador/)
-- [![Cancelei a tv a cabo](//jcfausto.com/wp-content/uploads/2013/08/the-cable-guy-original-640x360-150x150.jpg)](http://jcfausto.com/cancelei-a-tv-a-cabo/)[Cancelei a tv a cabo](http://jcfausto.com/cancelei-a-tv-a-cabo/)
-- [![O fim do evoluinfo.net](//jcfausto.com/wp-content/uploads/2013/06/Captura-de-Tela-2013-06-01-às-21.41.22-150x150.png)](http://jcfausto.com/o-fim-do-evoluinfo-net/)[O fim do evoluinfo.net](http://jcfausto.com/o-fim-do-evoluinfo-net/)
-- [![Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](//jcfausto.com/wp-content/uploads/2014/03/things-i-wish-to-know-150x150.jpeg)](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)[Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)

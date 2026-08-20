@@ -3,6 +3,8 @@ title: "Putins Angriff Auf Deutschland"
 author: "Arndt Freitag von Loringhoven and Leon Erlenhorst"
 status: unread
 cover: /assets/images/books/putins-angriff-auf-deutschland-arndt-freitag-von-loringhoven-and-leon-erlenhorst.jpg
+image: /assets/images/books/putins-angriff-auf-deutschland-arndt-freitag-von-loringhoven-and-leon-erlenhorst.jpg
+description: "Notes on Putins Angriff Auf Deutschland by Arndt Freitag von Loringhoven and Leon Erlenhorst — on Julio Cesar Fausto’s bookshelf."
 genre: "non-fiction"
 language: de
 origin: |

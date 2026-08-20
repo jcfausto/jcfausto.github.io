@@ -3,6 +3,7 @@ title: "Como Escrever Um eBook Em 30 Dias – O Desafio"
 date: 2013-10-31
 slug: como-escrever-um-ebook-em-30-dias-o-desafio
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-desafio/"
 archive_url: "https://web.archive.org/web/20131031093056/http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-desafio/"

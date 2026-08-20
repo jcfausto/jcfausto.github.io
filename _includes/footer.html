@@ -5,7 +5,7 @@
     <div class="contact-links">
       {% for link in site.data.site.contact.links %}
         {% if link.url contains 'mailto:' or link.url contains '://' %}
-          <a href="{{ link.url }}"{% if link.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ link.label }}</a>
+          <a href="{{ link.url }}"{% if link.url contains '://' %} target="_blank" rel="me noopener"{% endif %}>{{ link.label }}</a>
         {% else %}
           <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
         {% endif %}

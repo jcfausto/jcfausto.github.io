@@ -3,6 +3,7 @@ title: "TOEFL – Como Funciona"
 date: 2013-10-31
 slug: toefl-como-funciona
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/toefl-como-funciona/"
 archive_url: "https://web.archive.org/web/20131031114935/http://jcfausto.com/toefl-como-funciona/"

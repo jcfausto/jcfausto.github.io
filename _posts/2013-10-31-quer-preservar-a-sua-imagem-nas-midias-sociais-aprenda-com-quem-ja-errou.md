@@ -3,6 +3,7 @@ title: "Quer preservar a sua imagem nas mídias sociais ? Aprenda com quem já e
 date: 2013-10-31
 slug: quer-preservar-a-sua-imagem-nas-midias-sociais-aprenda-com-quem-ja-errou
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/quer-preservar-a-sua-imagem-nas-midias-sociais-aprenda-com-quem-ja-errou/"
 archive_url: "https://web.archive.org/web/20131031115236/http://jcfausto.com/quer-preservar-a-sua-imagem-nas-midias-sociais-aprenda-com-quem-ja-errou/"

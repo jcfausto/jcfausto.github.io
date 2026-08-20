@@ -20,7 +20,7 @@ layout: default
       <a class="gallery-card" href="{{ gallery.url | relative_url }}">
         <div class="gallery-card-cover">
           {% if gallery.cover %}
-            <img src="{{ gallery.cover | relative_url }}" alt="{{ gallery.title | escape }}">
+            <img src="{{ gallery.cover | relative_url }}" alt="{{ gallery.title | escape }}" loading="lazy" decoding="async">
           {% endif %}
         </div>
         <div class="gallery-card-meta">

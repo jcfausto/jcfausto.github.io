@@ -9,7 +9,7 @@
 <a class="book-card{% if featured %} book-card--featured{% endif %}" href="{{ book.url | relative_url }}">
   <div class="book-cover">
     {% if book.cover %}
-      <img src="{{ book.cover }}" alt="Cover of {{ book.title | escape }}">
+      <img src="{{ book.cover }}" alt="Cover of {{ book.title | escape }}" loading="lazy" decoding="async">
     {% endif %}
   </div>
   <div class="book-meta">

@@ -2,6 +2,8 @@
 title: "Finding Your Motivation as a Beginner Photographer"
 date: 2024-09-22
 language: en
+description: "Why I started photography, how to find your own reason to keep going, and why the journey matters more than the gear."
+image: /assets/images/photography/journal/finding-your-motivation-as-a-beginner-photographer/mendoza-argentina-mountains-june-2009.JPG
 original_url: "https://juliofaustophotography.com/blog/finding-your-motivation-as-a-beginner-photographer"
 source: juliofaustophotography.com
 redirect_from:
@@ -9,7 +11,7 @@ redirect_from:
   - /blog/finding-your-motivation-as-a-beginner-photographer
 ---
 
-![](/assets/images/photography/journal/finding-your-motivation-as-a-beginner-photographer/mendoza-argentina-mountains-june-2009.JPG)
+![Mountain road in Mendoza, Argentina, photographed in 2009](/assets/images/photography/journal/finding-your-motivation-as-a-beginner-photographer/mendoza-argentina-mountains-june-2009.JPG){: loading="lazy" decoding="async"}
 
 _Mendoza, Argentina. 2009._
 
@@ -75,4 +77,4 @@ Photography is not just about taking pictures. It’s about discovering the worl
 
 * * *
 
-![](/assets/images/photography/journal/finding-your-motivation-as-a-beginner-photographer/beginner-photographers-guide-cover.png)
+![Beginner photographer’s equipment guide cover](/assets/images/photography/journal/finding-your-motivation-as-a-beginner-photographer/beginner-photographers-guide-cover.png){: loading="lazy" decoding="async"}

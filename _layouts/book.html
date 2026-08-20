@@ -24,7 +24,7 @@ layout: default
   <header class="book-page-head">
     <div class="book-cover book-cover--large">
       {% if page.cover %}
-        <img src="{{ page.cover }}" alt="Cover of {{ page.title | escape }}">
+        <img src="{{ page.cover }}" alt="Cover of {{ page.title | escape }}" loading="lazy" decoding="async">
       {% endif %}
     </div>
     <div>

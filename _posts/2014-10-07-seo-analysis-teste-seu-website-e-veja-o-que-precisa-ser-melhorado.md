@@ -3,6 +3,7 @@ title: "SEO Analysis – Teste seu website e veja o que precisa ser melhorado"
 date: 2014-10-07
 slug: seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/"
 archive_url: "https://web.archive.org/web/20141007055606/http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/"
@@ -36,18 +37,3 @@ O relatório de sugestões é extenso e cobre diversas áreas (se você ainda n�
 Grande abraço a todos.
 
 Não esqueçam de assinar a minha lista para ficar por dentro de novidades.
-
-### Leituras Sugeridas
-
-- [![9 SEO Analysis Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/9.jpg)](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)[Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)
-- [![ SEO Analysis Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/wp-content/uploads/2014/03/things-i-wish-to-know-150x150.jpeg)](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)[Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)
-- [![social media fail 150x150 SEO Analysis Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/wp-content/uploads/2013/09/social-media-fail-150x150.jpg)](http://jcfausto.com/quer-preservar-a-sua-imagem-nas-midias-sociais-aprenda-com-quem-ja-errou/)[Quer preservar a sua imagem nas mídias sociais ? Aprenda com quem já errou!](http://jcfausto.com/quer-preservar-a-sua-imagem-nas-midias-sociais-aprenda-com-quem-ja-errou/)
-- [![Final 150x150 SEO Analysis Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/wp-content/uploads/2014/09/Final-150x150.png)](http://jcfausto.com/como-fazer-uma-imagem-customizada-para-seu-blog/)[Como Fazer uma Imagem Customizada Para Seu Blog](http://jcfausto.com/como-fazer-uma-imagem-customizada-para-seu-blog/)
-
-![E newsletter icon SEO Analysis   Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

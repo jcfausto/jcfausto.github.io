@@ -1,18 +1,23 @@
 title: Julio Cesar Fausto
 author: Julio Cesar Fausto
-description: Technology and software development expert.
+tagline: Head of Engineering in Berlin
+description: Head of Engineering in Berlin — writing on leadership, software, and AI, and photographing landscapes, wildlife, and cities.
 url: https://jcfausto.com
 baseurl: ""
 lang: en
+locale: en_US
 
 logo: /assets/images/julio-portrait.png
+
+twitter:
+  card: summary_large_image
 
 social:
   name: Julio Cesar Fausto
   links:
-    - https://github.com/jcfausto
     - https://www.linkedin.com/in/jcfausto
     - https://www.instagram.com/juliofaustophotography/
+    - https://github.com/jcfausto
     - https://jcfausto.com/photography/
 
 permalink: /writing/:title/

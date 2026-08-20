@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="wrap thought-permalink">
+  {% if page.title %}
+    <h1 class="visually-hidden">{{ page.title | escape }}</h1>
+  {% else %}
+    <h1 class="visually-hidden">{{ page.date | date: "%-d %b %Y" }}</h1>
+  {% endif %}
   {% include thought-card.html thought=page body=content %}
   <p class="post-back"><a href="{{ '/thoughts/' | relative_url }}">← All thoughts</a></p>
 </div>

@@ -2,6 +2,8 @@
 title: "What Makes a Great Photo – A Beginner’s Perspective"
 date: 2024-08-31
 language: en
+description: "A beginner’s take on what makes a photograph work — light, place, and looking closely — more than the camera you buy."
+image: /assets/images/photography/journal/what-makes-a-great-photo-a-beginners-perspective/IMG_0324_IMBITUBA_BRAZIL_FEB_2024_BEACH_BLUE_SKY.JPG
 original_url: "https://juliofaustophotography.com/blog/what-makes-a-great-photo-a-beginners-perspective"
 source: juliofaustophotography.com
 redirect_from:
@@ -11,7 +13,7 @@ redirect_from:
 
 Are you a beginner photographer like me, constantly wondering what it takes to create a truly great image—the kind that inspires us when we see the work of our favorite photographers? If so, you’re in the right place.
 
-![](/assets/images/photography/journal/what-makes-a-great-photo-a-beginners-perspective/IMG_0324_IMBITUBA_BRAZIL_FEB_2024_BEACH_BLUE_SKY.JPG)
+![Beach and blue sky in Imbituba, Brazil](/assets/images/photography/journal/what-makes-a-great-photo-a-beginners-perspective/IMG_0324_IMBITUBA_BRAZIL_FEB_2024_BEACH_BLUE_SKY.JPG){: loading="lazy" decoding="async"}
 
 Imbituba, Brazil, Feb. 2023.
 
@@ -37,7 +39,7 @@ As William Patino wisely noted in his landscape photography guidebook,
 
 That said, don’t be discouraged if you’re not near iconic landscapes or if you city does not have great architecture. You can still create compelling images by focusing on smaller, more intimate scenes in nature or in your surroundings. Look down at the ground for textures, patterns, and details that are often overlooked. 
 
-![](/assets/images/photography/journal/what-makes-a-great-photo-a-beginners-perspective/wood_chips_background_texture.jpg)
+![Wood chips on the ground forming a pattern of shapes](/assets/images/photography/journal/what-makes-a-great-photo-a-beginners-perspective/wood_chips_background_texture.jpg){: loading="lazy" decoding="async"}
 
 Wood chips on the ground creating an interesting intricate pattern of shapes and geometries.
 

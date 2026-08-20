@@ -2,6 +2,8 @@
 title: "Getting started with a new hobby"
 date: 2023-03-12
 language: en
+description: "Why I picked up photography as a hobby in 2023, and what I hoped to learn by taking it more seriously."
+image: /assets/images/photography/journal/getting-started-with-a-new-hobby/20230305-DSC00029.jpg
 original_url: "https://juliofaustophotography.com/blog/getting-started-with-a-new-hobby"
 source: juliofaustophotography.com
 redirect_from:
@@ -9,7 +11,7 @@ redirect_from:
   - /blog/getting-started-with-a-new-hobby
 ---
 
-![](/assets/images/photography/journal/getting-started-with-a-new-hobby/20230305-DSC00029.jpg)
+![The Cube near Berlin’s central train station](/assets/images/photography/journal/getting-started-with-a-new-hobby/20230305-DSC00029.jpg){: loading="lazy" decoding="async"}
 
 View of the “The Cube”, near Berlin’s central train station
 

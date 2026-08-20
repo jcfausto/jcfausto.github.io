@@ -5,9 +5,8 @@ redirect_from:
   - /2023/11/25/a-new-beginning.html
   - /2023/11/25/a-new-beginning/
 title: "A new beginning"
+description: "Getting jcfausto.com back after losing the domain, and starting this version of the site."
 ---
-
-# A new beginning
 
 I think I've lost the count of how many times I recreated my personal website. I believe that most of these versions reflected somehow a certain moment in my life.
 

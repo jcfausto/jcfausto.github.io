@@ -3,6 +3,7 @@ title: "Cancelei a TV a cabo"
 date: 2013-09-16
 slug: cancelei-a-tv-a-cabo
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/cancelei-a-tv-a-cabo/"
 archive_url: "https://web.archive.org/web/20130916114925/http://jcfausto.com/cancelei-a-tv-a-cabo/"

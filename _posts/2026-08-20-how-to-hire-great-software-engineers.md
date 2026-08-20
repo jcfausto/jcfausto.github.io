@@ -3,6 +3,7 @@ layout: post
 language: en
 date: 2026-08-20
 title: "How To Hire Great Software Engineers"
+description: "Hiring great engineers is less about matching a résumé to a stack and more about culture, learning, collaboration, and how someone will contribute."
 own_writing: true
 ---
 

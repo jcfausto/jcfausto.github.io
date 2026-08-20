@@ -3,6 +3,7 @@ title: "Google Developer Bus 2013 – O que é?"
 date: 2014-03-10
 slug: google-developer-bus-2013-o-que-e
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/google-developer-bus-2013-o-que-e/"
 archive_url: "https://web.archive.org/web/20140310054323/http://jcfausto.com/google-developer-bus-2013-o-que-e/"
@@ -71,18 +72,3 @@ Gostou da história até aqui? Escreva um comentário, compartilhe nas redes soc
 Se quiser que eu te avise quando novos posts forem escritos, inscreva-se na minha lista, colocando seu nome e e-mail aqui abaixo. É rápidão!
 
 Abraços e até a próxima.
-
-### Leituras Sugeridas
-
-- [![Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2014/03/things-i-wish-to-know-150x150.jpeg)](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)[Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)
-- [![UML e o Pensamento “Silver Bullet”](http://jcfausto.com/wp-content/uploads/2014/02/silver-bullet-500x218-150x150.jpg)](http://jcfausto.com/uml-e-o-pensamento-silver-bullet/)[UML e o Pensamento “Silver Bullet”](http://jcfausto.com/uml-e-o-pensamento-silver-bullet/)
-- [![<!--:en-->Scaling agile – impressions<!--:--><!--:pt-->Escalonamento ágil – impressões<!--:-->](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/5.jpg)](http://jcfausto.com/scaling-agile-impressions/)[:enScaling agile – impressions::ptEscalonamento ágil – impressões:](http://jcfausto.com/scaling-agile-impressions/)
-- [![Pay with a Tweet – Um sistema de pagamentos social](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/15.jpg)](http://jcfausto.com/pay-with-a-tweet-a-social-payment-system/)[Pay with a Tweet – Um sistema de pagamentos social](http://jcfausto.com/pay-with-a-tweet-a-social-payment-system/)
-
-![Opt In Image](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

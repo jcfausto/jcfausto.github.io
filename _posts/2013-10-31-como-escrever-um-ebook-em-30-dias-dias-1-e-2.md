@@ -3,6 +3,7 @@ title: "Como Escrever Um eBook Em 30 Dias – Dias 1 e 2"
 date: 2013-10-31
 slug: como-escrever-um-ebook-em-30-dias-dias-1-e-2
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/como-escrever-um-ebook-em-30-dias-dias-1-e-2/"
 archive_url: "https://web.archive.org/web/20131031114907/http://jcfausto.com/como-escrever-um-ebook-em-30-dias-dias-1-e-2/"

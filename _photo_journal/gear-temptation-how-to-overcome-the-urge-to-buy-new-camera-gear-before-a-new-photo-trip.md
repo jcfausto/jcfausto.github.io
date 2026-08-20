@@ -2,6 +2,7 @@
 title: "Gear Temptation - How I Overcame the Urge to Buy New Camera Gear Before a Big Trip"
 date: 2025-04-13
 language: en
+description: "How I talked myself out of buying new camera gear before a trip to Denmark — and why waiting a day is usually enough."
 original_url: "https://juliofaustophotography.com/blog/gear-temptation-how-to-overcome-the-urge-to-buy-new-camera-gear-before-a-new-photo-trip"
 source: juliofaustophotography.com
 redirect_from:

@@ -25,7 +25,7 @@ layout: default
 
     <div class="about-grid">
       <div class="portrait">
-        <img src="{{ site.data.site.about.portrait | relative_url }}" alt="{{ site.data.site.about.portrait_alt }}">
+        <img src="{{ site.data.site.about.portrait | relative_url }}" alt="{{ site.data.site.about.portrait_alt }}" width="681" height="1024" fetchpriority="high" decoding="async">
       </div>
       <div>
         <div class="bio">
@@ -140,7 +140,7 @@ layout: default
       {% assign featured_photos = site.data.photos | where: "featured", true %}
       {% for photo in featured_photos %}
         <figure class="{{ photo.class }}">
-          <img src="{{ photo.src | relative_url }}" alt="{{ photo.alt | escape }}">
+          <img src="{{ photo.src | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async">
           <figcaption>{{ photo.caption | escape }}</figcaption>
         </figure>
       {% endfor %}

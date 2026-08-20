@@ -102,18 +102,3 @@ You could see the app with this modified navigation bar running here: [http://v
 Feel free to comment about this style. I’m not experient in CSS, so forgive me for any unecessary element at styles.
 
 Bye!
-
-### Leituras Sugeridas
-
-- [![Como eu aprendi ruby on rails em um mês e criei um web app do início ao fim](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/0.jpg)](http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/)[Como eu aprendi ruby on rails em um mês e criei um web app do início ao fim](http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/)
-- [![Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/9.jpg)](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)[Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)
-- [![Como Escrever Um eBook Em 30 Dias – O Desafio](http://jcfausto.com/wp-content/uploads/2013/10/writing-ebook-150x150.jpg)](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-desafio/)[Como Escrever Um eBook Em 30 Dias – O Desafio](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-desafio/)
-- [![Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2014/03/things-i-wish-to-know-150x150.jpeg)](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)[Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/)
-
-![Opt In Image](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

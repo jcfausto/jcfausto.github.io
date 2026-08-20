@@ -3,6 +3,7 @@ title: "O fim do evoluinfo.net"
 date: 2013-09-14
 slug: o-fim-do-evoluinfo-net
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/o-fim-do-evoluinfo-net/"
 archive_url: "https://web.archive.org/web/20130914175249/http://jcfausto.com/o-fim-do-evoluinfo-net/"

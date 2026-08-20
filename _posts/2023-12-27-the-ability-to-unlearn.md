@@ -5,9 +5,8 @@ redirect_from:
   - /2023/12/27/the-ability-to-unlearn.html
   - /2023/12/27/the-ability-to-unlearn/
 title: The ability to unlearn
+description: "Why engineering managers have to unlearn IC habits — ownership, technical identity, and how you deal with people — when you step into the role."
 ---
-
-# The ability to unlearn
 
 ## Context
 

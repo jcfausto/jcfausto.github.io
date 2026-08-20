@@ -3,6 +3,7 @@ title: "Pay with a Tweet – Um sistema de pagamentos social"
 date: 2013-10-31
 slug: pay-with-a-tweet-a-social-payment-system
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/pay-with-a-tweet-a-social-payment-system/"
 archive_url: "https://web.archive.org/web/20131031152207/http://jcfausto.com/pay-with-a-tweet-a-social-payment-system/"

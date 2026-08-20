@@ -31,13 +31,19 @@ _posts/2026-08-19-the-slug.md
 ---
 title: "The title"
 language: en
+description: "One or two sentences for search results and social previews."
+image: /assets/images/writing/the-slug.jpg
 own_writing: true
 ---
 
 Body of the post.
 ```
 
-Published at `/writing/the-slug/`. Use `language: pt` for Portuguese.
+Published at `/writing/the-slug/`. Use `language: pt` for Portuguese (Open Graph locale is set to `pt_BR` automatically).
+
+`description` and `image` are optional but worth setting. Without them, search snippets are taken from the start of the post, and shares fall back to the site portrait.
+
+Do not repeat the title as a `# Heading` in the body — the layout already renders it as the page `<h1>`.
 
 Set `own_writing: true` when the post was written by you and AI was used only for grammar and structure. That shows a short authorship note at the bottom of the post. Omit it, or set `own_writing: false`, to hide the note.
 
@@ -105,6 +111,8 @@ _photo_journal/the-slug.md
 title: "The title"
 date: 2026-08-19
 language: en
+description: "One or two sentences for search results and social previews."
+image: /assets/images/photography/journal/the-slug/cover.jpg
 ---
 
 The post.
@@ -190,6 +198,8 @@ status: reading
 genre: Novel
 language: en
 cover: /assets/images/books/the-slug.jpg
+image: /assets/images/books/the-slug.jpg
+description: "Notes on The book title by Author Name — on Julio Cesar Fausto’s bookshelf."
 started: 2026-08-19
 finished: 2026-09-01
 origin: |
@@ -207,6 +217,8 @@ Optional notes. Leave empty if this is only a shelf entry.
 | `genre` | no | string, or a list: `[Fiction, Philosophy]` | Eyebrow (`EN · Novel · Reading`) |
 | `language` | no | `en` (default) · `pt` · … | Eyebrow, uppercased |
 | `cover` | no | `/assets/images/books/the-slug.jpg` | Cover image |
+| `image` | no | same as `cover` | Open Graph / Twitter preview |
+| `description` | no | string | Search snippet and social card |
 | `started` | no | `YYYY-MM-DD` | `Started Aug 2026` |
 | `finished` | no | `YYYY-MM-DD` | `Finished Sep 2026` |
 | `origin` | no | markdown | “How did I get to this book?” |

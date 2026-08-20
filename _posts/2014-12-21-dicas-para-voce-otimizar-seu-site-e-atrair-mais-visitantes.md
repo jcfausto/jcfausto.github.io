@@ -3,6 +3,7 @@ title: "Dicas Para Você Otimizar Seu Site e Atrair Mais Visitantes"
 date: 2014-12-21
 slug: dicas-para-voce-otimizar-seu-site-e-atrair-mais-visitantes
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/dicas-para-voce-otimizar-seu-site-e-atrair-mais-visitantes/"
 archive_url: "https://web.archive.org/web/20150309095534/http://jcfausto.com/dicas-para-voce-otimizar-seu-site-e-atrair-mais-visitantes/"
@@ -50,10 +51,3 @@ Email
 OBS: Um e-mail de confirmação será enviado para você no endereço informado. Para entrar na lista, você precisa confirmar a sua assinatura para demonstrar que está usando um e-mail real.
 
 ---
-
-### Leituras Sugeridas
-
-- [![SEO Analysis – Teste seu website e veja o que precisa ser melhorado](//jcfausto.com/wp-content/uploads/2014/02/seo-graph-from-trimarkfirm-com-150x150.jpg)](http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/)[SEO Analysis – Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/)
-- [![Como Mudar O Tamanho do Resumo Dos Posts No WordPress](//jcfausto.com/wp-content/uploads/2015/01/Excerpt-featured-images-150x150.png)](http://jcfausto.com/como-mudar-o-tamanho-do-resumo-dos-posts-no-wordpress/)[Como Mudar O Tamanho do Resumo Dos Posts No WordPress](http://jcfausto.com/como-mudar-o-tamanho-do-resumo-dos-posts-no-wordpress/)
-- [![O fim do evoluinfo.net](//jcfausto.com/wp-content/uploads/2013/06/Captura-de-Tela-2013-06-01-às-21.41.22-150x150.png)](http://jcfausto.com/o-fim-do-evoluinfo-net/)[O fim do evoluinfo.net](http://jcfausto.com/o-fim-do-evoluinfo-net/)
-- [![Como Criar um Blog – Estruture Bem Suas Categorias](//jcfausto.com/wp-content/uploads/2014/03/ai5-150x150.jpg)](http://jcfausto.com/como-criar-um-blog-estruture-bem-suas-categorias/)[Como Criar um Blog – Estruture Bem Suas Categorias](http://jcfausto.com/como-criar-um-blog-estruture-bem-suas-categorias/)

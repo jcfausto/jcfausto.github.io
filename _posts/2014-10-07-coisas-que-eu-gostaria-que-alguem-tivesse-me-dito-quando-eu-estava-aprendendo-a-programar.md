@@ -3,6 +3,7 @@ title: "Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Apre
 date: 2014-10-07
 slug: coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/"
 archive_url: "https://web.archive.org/web/20141007055808/http://jcfausto.com/coisas-que-eu-gostaria-que-alguem-tivesse-me-dito-quando-eu-estava-aprendendo-a-programar/"
@@ -100,18 +101,3 @@ Se você acreditar que com tempo e paciência você poderá aprender muito bem a
 Artigo original publicado no [Medium.com](http://medium.com): [Things i Wish Someone Had Told e When I Was Learning How to Code](https://medium.com/learning-to-code/565fc9dcb329).
 
 Tradução e edição autorizada pela autora.
-
-### Leituras Sugeridas
-
-- [![silver bullet 500x218 150x150 Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2014/02/silver-bullet-500x218-150x150.jpg)](http://jcfausto.com/uml-e-o-pensamento-silver-bullet/)[UML e o Pensamento “Silver Bullet”](http://jcfausto.com/uml-e-o-pensamento-silver-bullet/)
-- [![9 Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/9.jpg)](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)[Desenvolvimento Web e Dispositivos Móveis – Cuidados com o layout](http://jcfausto.com/desenvolvimento-web-e-dispositivos-moveis-cuidados-com-o-layout/)
-- [![Google D. Bus 425 150x150 Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2013/12/Google-D.-Bus-425-150x150.jpg)](http://jcfausto.com/google-developer-bus-2013-o-que-e/)[Google Developer Bus 2013 – O que é?](http://jcfausto.com/google-developer-bus-2013-o-que-e/)
-- [![seo graph from trimarkfirm com 150x150 Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2014/02/seo-graph-from-trimarkfirm-com-150x150.jpg)](http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/)[SEO Analysis – Teste seu website e veja o que precisa ser melhorado](http://jcfausto.com/seo-analysis-teste-seu-website-e-veja-o-que-precisa-ser-melhorado/)
-
-![E newsletter icon Coisas Que Eu Gostaria Que Alguém Tivesse Me Dito Quando Eu Estava Aprendendo a Programar](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

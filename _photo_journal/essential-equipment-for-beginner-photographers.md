@@ -2,6 +2,8 @@
 title: "Essential Equipment for Beginner Photographers"
 date: 2024-10-07
 language: en
+description: "What beginner photographers actually need — a camera, a kit lens, and a few accessories — without buying a bag of gear first."
+image: /assets/images/photography/journal/essential-equipment-for-beginner-photographers/sony-alpha-a7-iii.jpg
 original_url: "https://juliofaustophotography.com/blog/essential-equipment-for-beginner-photographers"
 source: juliofaustophotography.com
 redirect_from:
@@ -9,7 +11,7 @@ redirect_from:
   - /blog/essential-equipment-for-beginner-photographers
 ---
 
-![](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/unsplash-image-iCtJF-A5hvs.jpg)
+![Camera and photography equipment on a table](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/unsplash-image-iCtJF-A5hvs.jpg){: loading="lazy" decoding="async"}
 
 ### **The Beginner Photographer’s Guide to Essential Equipment**
 
@@ -50,7 +52,7 @@ Some popular beginner photography camera models include the Canon EOS Rebel seri
 
 This is the camera I chose when I was starting in photography, a model launched in 2018 which I bought in 2023, the Sony Alpha 7III.
 
-![](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/sony-alpha-a7-iii.jpg)
+![Sony Alpha 7 III camera](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/sony-alpha-a7-iii.jpg){: loading="lazy" decoding="async"}
 
 A great tip from pro photographers is to buy used gear. I ended up buying mine new, but if I’d known about places like [**MPB**](https://mpb.com), a trusted online marketplace for photography gear, I would have gone that route instead.
 
@@ -62,20 +64,20 @@ Your camera will likely come with a “kit lens,” which is perfect for most be
 
 This is the kit lens that I used for almost the entire first year and that came with my camera:
 
-![](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/lens-sony-sel-28-70-kit-lens.jpg)
+![Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/lens-sony-sel-28-70-kit-lens.jpg){: loading="lazy" decoding="async"}
 
 Here’s a quick tip: Don’t feel pressured to rush into buying extra lenses before using your kit lens extensively. Whether you’re shooting landscapes, portraits, or street photography, the kit lens is versatile enough to handle it all. Some may suggest ditching it due to its average quality, but until you’ve developed the skills to fully understand the nuances of lens performance, your kit lens will serve you just fine. Focus on improving your technique first; the need for more specialised gear will come naturally as you progress. Just as important, take the time to get comfortable with your camera’s settings, so adjusting them becomes second nature.
 
 Here are a few photos I took with the kit lens when I bought the camera:
 
-![essential-equipment-for-beginner-photographers-DSC00344.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00344.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00054.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00054.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00067.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00067.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00103.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00103.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00112.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00112.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00122.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00122.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00125.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00125.JPG)  
-![essential-equipment-for-beginner-photographers-DSC00128.JPG](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00128.JPG)  
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00344.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00054.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00067.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00103.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00112.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00122.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00125.JPG){: loading="lazy" decoding="async"}
+![Photograph taken with a Sony 28–70mm kit lens](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/essential-equipment-for-beginner-photographers-DSC00128.JPG){: loading="lazy" decoding="async"}
 
 #### **4. Must-Have Accessories for Beginner Photographers**
 
@@ -99,4 +101,4 @@ When you’re just starting out, it’s easy to get caught up in the hype of buy
 
 * * *
 
-![](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/beginner-photographers-guide-cover.png)
+![Beginner photographer’s equipment guide cover](/assets/images/photography/journal/essential-equipment-for-beginner-photographers/beginner-photographers-guide-cover.png){: loading="lazy" decoding="async"}

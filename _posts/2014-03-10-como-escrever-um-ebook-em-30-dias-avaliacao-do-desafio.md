@@ -3,6 +3,7 @@ title: "Como Escrever Um eBook Em 30 Dias – Avaliação do desafio"
 date: 2014-03-10
 slug: como-escrever-um-ebook-em-30-dias-avaliacao-do-desafio
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/como-escrever-um-ebook-em-30-dias-avaliacao-do-desafio/"
 archive_url: "https://web.archive.org/web/20140310054320/http://jcfausto.com/como-escrever-um-ebook-em-30-dias-avaliacao-do-desafio/"
@@ -46,18 +47,3 @@ Para finalizar, gostaria de informar que o projeto não parou. Estou fazendo a e
 Forte abraço.
 
 Até o próximo artigo.
-
-### Leituras Sugeridas
-
-- [![ Como Escrever Um eBook Em 30 Dias – Dias 3 e 4](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/30.jpg)](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-dias-3-e-4/)[Como Escrever Um eBook Em 30 Dias – Dias 3 e 4](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-dias-3-e-4/)
-- [![Como Escrever Um eBook Em 30 Dias – Dias 1 e 2](http://jcfausto.com/wp-content/uploads/2013/10/Trello_DesafioEbook_Dias1e2-150x150.png)](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-dias-1-e-2/)[Como Escrever Um eBook Em 30 Dias – Dias 1 e 2](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-dias-1-e-2/)
-- [![Como Escrever Um eBook Em 30 Dias – O Método](http://jcfausto.com/wp-content/uploads/2013/10/how_to01-150x150.gif)](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-metodo/)[Como Escrever Um eBook Em 30 Dias – O Método](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-metodo/)
-- [![Como Escrever Um eBook Em 30 Dias – O Desafio](http://jcfausto.com/wp-content/uploads/2013/10/writing-ebook-150x150.jpg)](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-desafio/)[Como Escrever Um eBook Em 30 Dias – O Desafio](http://jcfausto.com/como-escrever-um-ebook-em-30-dias-o-desafio/)
-
-![Opt In Image](http://jcfausto.com/wp-content/uploads/2013/10/E-newsletter-icon.jpg)
-
-Assine a minha lista e receba as novidades direto no seu e-mail.
-Pode ficar tranquilo. Não vou ficar enviando SPAM :) Você só vai receber conteúdo de qualidade. Eu garanto!
-
-Primeiro nome
-Email

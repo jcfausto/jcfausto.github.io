@@ -3,6 +3,7 @@ title: "Como Criar um Blog – Estruture Bem Suas Categorias"
 date: 2014-10-14
 slug: como-criar-um-blog-estruture-bem-suas-categorias
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/como-criar-um-blog-estruture-bem-suas-categorias/"
 archive_url: "https://web.archive.org/web/20141014211745/http://jcfausto.com/como-criar-um-blog-estruture-bem-suas-categorias/"
@@ -149,10 +150,3 @@ Gostou da maneira como adequei as minhas categorias? Que tal você fazer o mesmo
 Se você fizer esta reestruturação no seu blog e quiser compartilhar comigo eu ficaria muito feliz e teria prazer em colocar o link com o seu post descrevendo a sua reestruturação aqui neste post.
 
 Abraços e até a próxima!
-
-### Leituras Sugeridas
-
-- [![0 Como Criar um Blog Estruture Bem Suas Categorias](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/0.jpg)](http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/)[Como eu aprendi ruby on rails em um mês e criei um web app do início ao fim](http://jcfausto.com/como-eu-aprendi-ruby-on-rails-em-um-mes-e-criei-um-web-app-do-inicio-ao-fim/)
-- [![silver bullet 500x218 150x150 Como Criar um Blog Estruture Bem Suas Categorias](http://jcfausto.com/wp-content/uploads/2014/02/silver-bullet-500x218-150x150.jpg)](http://jcfausto.com/uml-e-o-pensamento-silver-bullet/)[UML e o Pensamento “Silver Bullet”](http://jcfausto.com/uml-e-o-pensamento-silver-bullet/)
-- [![Starbucks 150x150 Como Criar um Blog Estruture Bem Suas Categorias](http://jcfausto.com/wp-content/uploads/2013/09/Starbucks-150x150.jpg)](http://jcfausto.com/a-evolucao-do-valor-no-tempo/)[A Evolução do “Valor” no Tempo](http://jcfausto.com/a-evolucao-do-valor-no-tempo/)
-- [![2 Como Criar um Blog Estruture Bem Suas Categorias](http://jcfausto.com/wp-content/plugins/related-posts/static/thumbs/2.jpg)](http://jcfausto.com/toefl-como-funciona/)[TOEFL – Como Funciona](http://jcfausto.com/toefl-como-funciona/)

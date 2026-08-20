@@ -3,6 +3,7 @@ title: "A Evolução do Valor no Tempo"
 date: 2013-09-16
 slug: a-evolucao-do-valor-no-tempo
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/a-evolucao-do-valor-no-tempo/"
 archive_url: "https://web.archive.org/web/20130916114851/http://jcfausto.com/a-evolucao-do-valor-no-tempo/"

@@ -3,6 +3,7 @@ title: "Sincronizando o calendário do outlook com o iphone"
 date: 2014-03-05
 slug: sincronizando-o-calendario-do-outlook-com-o-iphone
 language: pt
+locale: pt_BR
 source: jcfausto.com
 original_url: "http://jcfausto.com/sincronizando-o-calendario-do-outlook-com-o-iphone/"
 archive_url: "https://web.archive.org/web/20140305103309/http://jcfausto.com/sincronizando-o-calendario-do-outlook-com-o-iphone/"
