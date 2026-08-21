@@ -62,7 +62,7 @@ bookshelf:
 contact:
   eyebrow: 06 — Get in touch
   cta: Always up for a good project or a good frame.
-  location: Berlin, Germany
+  location:
   links:
     - label: jcfausto@gmail.com
       url: mailto:jcfausto@gmail.com
